@@ -20,9 +20,9 @@
 				<key>invisibles</key>
 				<string>#BFBFBF</string>
 				<key>lineHighlight</key>
-				<string>#272E31</string>
+				<string>#282A2E</string>
 				<key>selection</key>
-				<string>#323A40</string>
+				<string>#373B41</string>
 			</dict>
 		</dict>
 		<dict>
@@ -533,6 +533,17 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#D56C69</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Function Call</string>
+			<key>scope</key>
+			<string>meta.function-call.object.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D3B96B</string>
 			</dict>
 		</dict>
 		<dict>
