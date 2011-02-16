@@ -261,7 +261,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#9FA29E</string>
+				<string>#AFB0AE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -391,7 +391,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#BA9AC2</string>
+				<string>#BB99C1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -404,7 +404,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#BA9AC2</string>
+				<string>#BF9CBE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -456,7 +456,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#BA9AC2</string>
+				<string>#C2A2CC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -493,7 +493,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D3B96B</string>
+				<string>#C2A2CC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -537,6 +537,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>JavaScript Variable</string>
+			<key>scope</key>
+			<string>variable.language.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D66C68</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>PHP Function Call</string>
 			<key>scope</key>
 			<string>meta.function-call.object.php</string>
@@ -544,6 +555,28 @@
 			<dict>
 				<key>foreground</key>
 				<string>#D3B96B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Single Quote HMTL Fix</string>
+			<key>scope</key>
+			<string>punctuation.definition.string.end.php, punctuation.definition.string.begin.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A8B06E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Parenthesis HMTL Fix</string>
+			<key>scope</key>
+			<string>source.php.embedded.line.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AFB0AE</string>
 			</dict>
 		</dict>
 		<dict>
