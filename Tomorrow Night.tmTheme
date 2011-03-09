@@ -248,7 +248,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#C3A2CC</string>
+				<string>#BA9AC2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -391,7 +391,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#BB99C1</string>
+				<string>#D3B96B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -404,7 +404,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#BF9CBE</string>
+				<string>#82A3BF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -443,7 +443,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#C3A2CC</string>
+				<string>#BA9AC2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -456,7 +456,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#C2A2CC</string>
+				<string>#D3B96B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -482,7 +482,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#D09562</string>
+				<string>#D3B96B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -493,7 +493,31 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C2A2CC</string>
+				<string>#A7B367</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML String</string>
+			<key>scope</key>
+			<string>string.quoted.double.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A7B367</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML Tags</string>
+			<key>scope</key>
+			<string>punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#82A3BF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -519,7 +543,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#82A3BF</string>
+				<string>#BDBEBC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -543,7 +567,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D66C68</string>
+				<string>#D56C69</string>
 			</dict>
 		</dict>
 		<dict>
@@ -553,6 +577,8 @@
 			<string>meta.function-call.object.php</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#D3B96B</string>
 			</dict>
@@ -565,7 +591,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A8B06E</string>
+				<string>#A7B367</string>
 			</dict>
 		</dict>
 		<dict>
@@ -581,6 +607,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>PHP Punctuation Embedded</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D09562</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Ruby Symbol</string>
 			<key>scope</key>
 			<string>constant.other.symbol.ruby</string>
@@ -589,7 +626,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#A7B467</string>
+				<string>#A7B367</string>
 			</dict>
 		</dict>
 		<dict>
@@ -613,7 +650,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D3B96C</string>
+				<string>#D3B96B</string>
 			</dict>
 		</dict>
 		<dict>
