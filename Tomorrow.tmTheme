@@ -86,9 +86,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Constant Built-in</string>
+			<string>Constant</string>
 			<key>scope</key>
-			<string>constant.language, support.constant</string>
+			<string>constant.language, support.constant, constant.character, constant.other</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -99,22 +99,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Constant User-defined</string>
+			<string>Symbol</string>
 			<key>scope</key>
-			<string>constant.character, constant.other</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#8959A8</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Constant Other</string>
-			<key>scope</key>
-			<string>constant.other</string>
+			<string>constant.other.symbol</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
