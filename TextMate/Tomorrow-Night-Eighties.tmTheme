@@ -12,7 +12,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#252525</string>
+				<string>#2D2D2D</string>
 				<key>caret</key>
 				<string>#CCCCCC</string>
 				<key>foreground</key>
@@ -57,7 +57,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CC6666</string>
+				<string>#F2777A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -133,11 +133,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#CC6666</string>
+				<string>#F2777A</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#731E23</string>
+				<string>#660000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -150,7 +150,7 @@
 				<key>background</key>
 				<string>#99CCCC</string>
 				<key>foreground</key>
-				<string>#006E6D</string>
+				<string>#006666</string>
 			</dict>
 		</dict>
 		<dict>
@@ -165,7 +165,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#721F44</string>
+				<string>#660033</string>
 			</dict>
 		</dict>
 	</array>
