@@ -18,7 +18,7 @@
 				<key>foreground</key>
 				<string>#CCCCCC</string>
 				<key>invisibles</key>
-				<string>#333333</string>
+				<string>#6A6A6A</string>
 				<key>lineHighlight</key>
 				<string>#393939</string>
 				<key>selection</key>
@@ -51,9 +51,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Variable, String Link, Regular Expression, Tag Name</string>
+			<string>Variable, String Link, Tag Name</string>
 			<key>scope</key>
-			<string>variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name</string>
+			<string>variable, support.other.variable, string.other.link, entity.name.tag, entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -70,7 +70,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FF9966</string>
+				<string>#F99157</string>
 			</dict>
 		</dict>
 		<dict>

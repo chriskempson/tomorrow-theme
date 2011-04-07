@@ -18,7 +18,7 @@
 				<key>foreground</key>
 				<string>#C5C8C6</string>
 				<key>invisibles</key>
-				<string>#282A2E</string>
+				<string>#4B4E55</string>
 				<key>lineHighlight</key>
 				<string>#282A2E</string>
 				<key>selection</key>
@@ -96,7 +96,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#B4BD5C</string>
+				<string>#B5BD68</string>
 			</dict>
 		</dict>
 		<dict>
