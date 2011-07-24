@@ -1,21 +1,21 @@
-" Tomorrow Night - Full Colour and 256 Colour
+" Tomorrow Night Blue - Full Colour and 256 Colour
 " http://chriskempson.com
 "
 " Hex colour conversion functions borrowed from the theme "Desert256""
 
-let colours_name = "Tomorrow-Night"
+let colours_name = "Tomorrow-Night-Blue"
 
-let s:foreground = "c5c8c6"
-let s:background = "1d1f21"
-let s:selection = "373b41"
-let s:line = "282a2e"
-let s:comment = "969896"
-let s:red = "cc6666"
-let s:orange = "de935f"
-let s:yellow = "f0c674"
-let s:green = "b5bd68"
-let s:blue = "81a2be"
-let s:purple = "b294bb"
+let s:foreground = "ffffff"
+let s:background = "002451"
+let s:selection = "003f8e"
+let s:line = "00346e"
+let s:comment = "7285b7"
+let s:red = "ff9da4"
+let s:orange = "ffc58f"
+let s:yellow = "ffeead"
+let s:green = "d1f1a9"
+let s:blue = "bbdaff"
+let s:purple = "ebbbff"
 
 set background=dark
 hi clear
