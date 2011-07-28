@@ -3,7 +3,7 @@
 "
 " Hex colour conversion functions borrowed from the theme "Desert256""
 
-let colours_name = "Tomorrow-Night"
+let g:colors_name = "Tomorrow-Night"
 
 let s:foreground = "c5c8c6"
 let s:background = "1d1f21"
