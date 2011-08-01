@@ -14,18 +14,18 @@ Tomorrow theme variations in shown in TextMate with Ruby code.
 ## Hexy Palettes
 ![Tomorrow Night](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Tomorrow-Night-Palette.png)
 
- #1d1f21 Background
- #282a2e Current Line
- #373b41 Selection
- #c5c8c6 Foreground
- #969896 Grey
- #cc6666 Red
- #de935f Orange
- #f0c674 Yellow
- #b5bd68 Green
- #8abeb7 Aqua
- #81a2be Blue
- #b294bb Purple
+ #1d1f21 Background  
+ #282a2e Current Line  
+ #373b41 Selection  
+ #c5c8c6 Foreground  
+ #969896 Grey  
+ #cc6666 Red  
+ #de935f Orange  
+ #f0c674 Yellow  
+ #b5bd68 Green  
+ #8abeb7 Aqua  
+ #81a2be Blue  
+ #b294bb Purple  
 
 ## Language Support
 The theme has been designed to be language independent and should look great with any language. However, if you find this isn't the case, just send me some sample code and I'll fix it!
