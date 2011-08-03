@@ -5,6 +5,7 @@
 
 let g:colors_name = "Tomorrow-Night-Eighties"
 
+" Default GUI Colours
 let s:foreground = "cccccc"
 let s:background = "2d2d2d"
 let s:selection = "515151"
@@ -234,10 +235,10 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("LineNr", s:foreground, "", "")
 	call <SID>X("NonText", s:selection, "", "")
 	call <SID>X("SpecialKey", s:selection, "", "")
-	call <SID>X("Search", s:foreground, s:selection, "")
+	call <SID>X("Search", "", s:selection, "")
 	call <SID>X("StatusLine", s:foreground, s:background, "reverse")
 	call <SID>X("StatusLineNC", s:foreground, s:background, "reverse")
-	call <SID>X("Visual", s:foreground, s:selection, "")
+	call <SID>X("Visual", "", s:selection, "")
 	call <SID>X("Directory", s:blue, "", "")
 	call <SID>X("ModeMsg", s:green, "", "")
     call <SID>X("MoreMsg", s:green, "", "")
@@ -245,6 +246,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("WarningMsg", s:red, "", "")
 	if version >= 700
 		call <SID>X("CursorLine", "", s:line, "none")
+		call <SID>X("CursorColumn", "", s:line, "none")
 		call <SID>X("PMenu", s:foreground, s:selection, "none")
 		call <SID>X("PMenuSel", s:foreground, s:selection, "reverse")
 	end
@@ -266,6 +268,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("Operator", s:foreground, "", "none")
 	call <SID>X("Type", s:blue, "", "none")
 	call <SID>X("Define", s:purple, "", "none")
+	call <SID>X("Include", s:blue, "", "") 
 	"call <SID>X("Ignore", "666666", "", "")
 	
 	" Vim Highlighting
@@ -280,11 +283,12 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("phpKeyword", s:purple, "", "")
 	
 	" Ruby Highlighting
-	call <SID>X("rubySymbol", s:green, "", "")	
-	call <SID>X("rubyConstant", s:yellow, "", "")	
-	call <SID>X("rubyAttribute", s:blue, "", "")	
-	call <SID>X("rubyLocalVariableOrMethod", s:blue, "", "")	
-	call <SID>X("rubyCurlyBlock", s:orange, "", "") 
+	call <SID>X("rubySymbol", s:green, "", "")
+	call <SID>X("rubyConstant", s:yellow, "", "")
+	call <SID>X("rubyAttribute", s:blue, "", "")
+	call <SID>X("rubyInclude", s:blue, "", "")
+	call <SID>X("rubyLocalVariableOrMethod", s:orange, "", "")
+	call <SID>X("rubyCurlyBlock", s:orange, "", "")
 
 	" Delete Functions
 	delf <SID>X
