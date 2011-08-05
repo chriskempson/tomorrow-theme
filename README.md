@@ -19,6 +19,7 @@ Coda
 Eclipse
 Sublime Text 2 (Uses TextMate Themes)
 Redcar (Uses TextMate Themes)
+E TextEditor (Uses TextMate Themes)
 SubEthaEdit (Uses Coda Themes)
 
 ## Hex Palettes
