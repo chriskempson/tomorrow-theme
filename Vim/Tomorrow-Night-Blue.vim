@@ -235,7 +235,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("LineNr", s:foreground, "", "")
 	call <SID>X("NonText", s:selection, "", "")
 	call <SID>X("SpecialKey", s:selection, "", "")
-	call <SID>X("Search", "", s:selection, "")
+	call <SID>X("Search", s:background, s:yellow, "")
 	call <SID>X("StatusLine", s:foreground, s:background, "reverse")
 	call <SID>X("StatusLineNC", s:foreground, s:background, "reverse")
 	call <SID>X("Visual", "", s:selection, "")
@@ -281,6 +281,10 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	" PHP Highlighting
 	call <SID>X("phpVarSelector", s:red, "", "")
 	call <SID>X("phpKeyword", s:purple, "", "")
+	call <SID>X("phpRepeat", s:purple, "", "")
+	call <SID>X("phpConditional", s:purple, "", "")
+	call <SID>X("phpStatement", s:purple, "", "")
+	call <SID>X("phpMemberSelector", s:foreground, "", "")
 	
 	" Ruby Highlighting
 	call <SID>X("rubySymbol", s:green, "", "")

@@ -4,8 +4,7 @@ After having spent over five years using, tweaking and refining a personal edito
 A theme should not get in your way but should aid your programming with easily identifiable colours that add meaning and enhance legibility. This was the main focus when developing Tomorrow. 
 
 ## Take a look!
-Tomorrow theme variations in shown in TextMate with Ruby code.
-
+Tomorrow theme variations in shown in TextMate with Ruby code.  
 ![Ruby Code in Tomorrow Night](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Tomorrow-Night.png)
 ![Ruby Code in Tomorrow](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Tomorrow.png)
 ![Ruby Code in Tomorrow Night Eighties](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Tomorrow-Night-Eighties.png)
@@ -17,7 +16,11 @@ Tomorrow theme variations in shown in TextMate with Ruby code.
 * Xcode 4
 * Coda
 * Eclipse
+<<<<<<< HEAD
 * Sublime Text 2 (Uses TextMate Themes)
+=======
+* Sublime Text 2 (Uses TextMate Theme)
+>>>>>>> Readme reformatting and Vim theme tweaks
 * Redcar (Uses TextMate Themes)
 * E TextEditor (Uses TextMate Themes)
 * SubEthaEdit (Uses Coda Themes)
