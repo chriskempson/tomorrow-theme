@@ -12,15 +12,15 @@ Tomorrow theme variations in shown in TextMate with Ruby code.
 ![Ruby Code in Tomorrow Night Blue](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Tomorrow-Night-Blue.png)
 
 ## Supported Editors
-TextMate
-Vim (Full-colour and 256-colour)
-Xcode 4
-Coda
-Eclipse
-Sublime Text 2 (Uses TextMate Themes)
-Redcar (Uses TextMate Themes)
-E TextEditor (Uses TextMate Themes)
-SubEthaEdit (Uses Coda Themes)
+* TextMate
+* Vim (Full-colour and 256-colour)
+* Xcode 4
+* Coda
+* Eclipse
+* Sublime Text 2 (Uses TextMate Themes)
+* Redcar (Uses TextMate Themes)
+* E TextEditor (Uses TextMate Themes)
+* SubEthaEdit (Uses Coda Themes)
 
 ## Hex Palettes
 
