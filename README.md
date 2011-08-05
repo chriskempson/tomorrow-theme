@@ -16,11 +16,7 @@ Tomorrow theme variations in shown in TextMate with Ruby code.
 * Xcode 4
 * Coda
 * Eclipse
-<<<<<<< HEAD
 * Sublime Text 2 (Uses TextMate Themes)
-=======
-* Sublime Text 2 (Uses TextMate Theme)
->>>>>>> Readme reformatting and Vim theme tweaks
 * Redcar (Uses TextMate Themes)
 * E TextEditor (Uses TextMate Themes)
 * SubEthaEdit (Uses Coda Themes)
