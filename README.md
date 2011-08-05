@@ -1,7 +1,7 @@
 # Tomorrow Theme
 After having spent over five years using, tweaking and refining a personal editor theme I decided it was time to release "Tomorrow Theme" - a bright theme with pastel colours and sensible syntax highlighting. 
 
-A theme should not get in your way but should aid your programming with easily identifiable colours that add meaning and enhance legibility. Hopefully, Tomorrow Theme achieves this but the jury is still out!
+A theme should not get in your way but should aid your programming with easily identifiable colours that add meaning and enhance legibility. This was the main focus when developing Tomorrow. 
 
 ## Take a look!
 Tomorrow theme variations in shown in TextMate with Ruby code.
@@ -10,6 +10,16 @@ Tomorrow theme variations in shown in TextMate with Ruby code.
 ![Ruby Code in Tomorrow](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Tomorrow.png)
 ![Ruby Code in Tomorrow Night Eighties](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Tomorrow-Night-Eighties.png)
 ![Ruby Code in Tomorrow Night Blue](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Tomorrow-Night-Blue.png)
+
+## Supported Editors
+TextMate
+Vim (Full-colour and 256-colour)
+Xcode 4
+Coda
+Eclipse
+Sublime Text 2 (Uses TextMate Themes)
+Redcar (Uses TextMate Themes)
+SubEthaEdit (Uses Coda Themes)
 
 ## Hex Palettes
 
