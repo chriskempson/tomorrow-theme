@@ -3,8 +3,6 @@
 "
 " Hex colour conversion functions borrowed from the theme "Desert256""
 
-let g:colors_name = "Tomorrow-Night"
-
 " Default GUI Colours
 let s:foreground = "c5c8c6"
 let s:background = "1d1f21"
@@ -28,6 +26,8 @@ end
 set background=dark
 hi clear
 syntax reset
+
+let g:colors_name = "Tomorrow-Night"
 
 if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	" Returns an approximate grey index for the given grey level
