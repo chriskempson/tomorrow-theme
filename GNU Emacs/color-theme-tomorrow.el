@@ -7,15 +7,15 @@
 
 (defun color-theme-tomorrow-real (background current-line
 selection foreground comment red orange yellow green aqua blue
-purple)
+purple cursor)
   "GNU Emacs port of Chris Kempson's Tomorrow theme. Port by Chris Charles."
 
     (color-theme-install
      `(color-theme-tomorrow-real
        ((background . ,background)
         (background-mode . dark)
-        (border-color . "black")
-        (cursor-color . "black")
+        (border-color . ,cursor)
+        (cursor-color . ,cursor)
         (foreground-color . ,foreground))
 
        ;; Built-in stuff (Emacs 23)
@@ -58,7 +58,7 @@ purple)
   (interactive)
   (color-theme-tomorrow-real "#ffffff" "#e9efff" "#c5cce9" "#4d4d4c" "#8e908c"
                              "#c82829" "#f5871f" "#eab700" "#718c00" "#3e999f"
-                             "#4271ae" "#8959a8"))
+                             "#4271ae" "#8959a8" "#aeafad"))
 (provide 'color-theme-tomorrow)
 
 (defun color-theme-tomorrow-night ()
@@ -66,7 +66,7 @@ purple)
   (interactive)
   (color-theme-tomorrow-real "#1d1f21" "#282a2e" "#373b41" "#c5c8c6" "#969896"
                              "#cc6666" "#de935f" "#f0c674" "#b5bd68" "#8abeb7"
-                             "#81a2be" "#b294bb"))
+                             "#81a2be" "#b294bb" "#aeafad"))
 (provide 'color-theme-tomorrow-night)
 
 (defun color-theme-tomorrow-night-eighties ()
@@ -74,7 +74,7 @@ purple)
   (interactive)
   (color-theme-tomorrow-real "#2d2d2d" "#393939" "#515151" "#cccccc" "#999999"
                              "#f2777a" "#f99157" "#ffcc66" "#99cc99" "#009999"
-                             "#99cccc" "#cc99cc"))
+                             "#99cccc" "#cc99cc" "#cccccc"))
 (provide 'color-theme-tomorrow-night-eighties)
 
 (defun color-theme-tomorrow-night-blue ()
@@ -82,7 +82,7 @@ purple)
   (interactive)
   (color-theme-tomorrow-real "#002451" "#00346e" "#003f8e" "#ffffff" "#7285b7"
                              "#ff9da4" "#ffc58f" "#ffeead" "#d1f1a9" "#99ffff"
-                             "#bbdaff" "#ebbbff"))
+                             "#bbdaff" "#ebbbff" "#ffffff"))
 (provide 'color-theme-tomorrow-night-blue)
 
 
