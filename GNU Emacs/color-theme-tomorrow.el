@@ -85,6 +85,14 @@ purple cursor)
                              "#bbdaff" "#ebbbff" "#ffffff"))
 (provide 'color-theme-tomorrow-night-blue)
 
+(defun color-theme-tomorrow-night-bright ()
+  "Dark Tomorrow theme with a brighter, higher-contrast look."
+  (interactive)
+  (color-theme-tomorrow-real "#000000" "#2a2a2a" "#424242" "#dedede" "#969896"
+                             "#d54e53" "#e78c45" "#e7c547" "#b9ca4a" "#70c0b1"
+                             "#7aa6da" "#c397d8" "#9f9f9f"))
+(provide 'color-theme-tomorrow-night-bright)
+
 
 (add-to-list 'color-themes
              '(color-theme-tomorrow
@@ -98,3 +106,6 @@ purple cursor)
 (add-to-list 'color-themes
              '(color-theme-tomorrow-night-blue
                "Tomorrow Night Blue" "Chris Kempson (ported by Chris Charles)"))
+(add-to-list 'color-themes
+             '(color-theme-tomorrow-night-bright
+               "Tomorrow Night Bright" "Chris Kempson (ported by Chris Charles)"))
