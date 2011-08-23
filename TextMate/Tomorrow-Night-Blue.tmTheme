@@ -64,7 +64,7 @@
 			<key>name</key>
 			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
 			<key>scope</key>
-			<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, punctuation.section.embedded</string>
+			<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, punctuation.section.embedded, keyword.other.unit</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -101,6 +101,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Operator, Misc</string>
+			<key>scope</key>
+			<string>keyword.operator, constant.other.color</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#99FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
 			<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level</string>
@@ -116,7 +127,7 @@
 			<key>name</key>
 			<string>Keyword, Storage</string>
 			<key>scope</key>
-			<string>keyword, storage, storage.type</string>
+			<string>keyword, storage, storage.type, entity.name.tag.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -133,11 +144,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#E16F73</string>
+				<string>#F99DA5</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#822021</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -148,9 +159,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#8EAAD7</string>
+				<string>#BBDAFE</string>
 				<key>foreground</key>
-				<string>#224D70</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -161,11 +172,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#BF9AD0</string>
+				<string>#EBBBFF</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#62436A</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 	</array>
