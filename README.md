@@ -5,10 +5,11 @@ A theme should not get in your way but should aid your programming with easily i
 
 ## Take a look!
 Tomorrow theme variations in shown in TextMate with Ruby code.  
-![Ruby Code in Tomorrow Night](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Tomorrow-Night.png)
-![Ruby Code in Tomorrow](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Tomorrow.png)
-![Ruby Code in Tomorrow Night Eighties](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Tomorrow-Night-Eighties.png)
-![Ruby Code in Tomorrow Night Blue](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Tomorrow-Night-Blue.png)
+![Ruby Code in Tomorrow Night](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Night.png)
+![Ruby Code in Tomorrow](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow.png)
+![Ruby Code in Tomorrow Night Eighties](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Night-Eighties.png)
+![Ruby Code in Tomorrow Night Blue](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Night-Blue.png)
+![Ruby Code in Tomorrow Night Bright](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Night-Bright.png)
 
 ## Supported Editors
 * TextMate
@@ -26,7 +27,7 @@ Tomorrow theme variations in shown in TextMate with Ruby code.
 ## Hex Palettes
 
 ### Tomorrow Night
-![Tomorrow Night](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Tomorrow-Night-Palette.png)
+![Tomorrow Night](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Night-Palette.png)
 
 `#1d1f21` Background  
 `#282a2e` Current Line  
@@ -42,11 +43,11 @@ Tomorrow theme variations in shown in TextMate with Ruby code.
 `#b294bb` Purple  
 
 ### Tomorrow
-![Tomorrow](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Tomorrow-Palette.png)
+![Tomorrow](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Palette.png)
 
 `#ffffff` Background  
-`#e9efff` Current Line  
-`#c5cce9` Selection  
+`#efefef` Current Line  
+`#d6d6d6` Selection  
 `#4d4d4c` Foreground  
 `#8e908c` Comment  
 `#c82829` Red  
@@ -58,7 +59,7 @@ Tomorrow theme variations in shown in TextMate with Ruby code.
 `#8959a8` Purple
 
 ### Tomorrow Night Eighties
-![Tomorrow Night Eighties](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Tomorrow-Night-Eighties-Palette.png)
+![Tomorrow Night Eighties](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Night-Eighties-Palette.png)
 
 `#2d2d2d` Background  
 `#393939` Current Line  
@@ -69,12 +70,12 @@ Tomorrow theme variations in shown in TextMate with Ruby code.
 `#f99157` Orange  
 `#ffcc66` Yellow  
 `#99cc99` Green  
-`#009999` Aqua  
-`#99cccc` Blue  
+`#66cccc` Aqua  
+`#6699cc` Blue  
 `#cc99cc` Purple
 
 ### Tomorrow Night Blue
-![Tomorrow Night Blue](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Tomorrow-Night-Blue-Palette.png)
+![Tomorrow Night Blue](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Night-Blue-Palette.png)
 
 `#002451` Background  
 `#00346e` Current Line  
@@ -88,6 +89,22 @@ Tomorrow theme variations in shown in TextMate with Ruby code.
 `#99ffff` Aqua  
 `#bbdaff` Blue  
 `#ebbbff` Purple
+
+### Tomorrow Night Bright
+![Tomorrow Night Bright](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Night-Bright-Palette.png)
+
+`#000000` Background  
+`#2a2a2a` Current Line  
+`#424242` Selection  
+`#eaeaea` Foreground  
+`#969896` Comment  
+`#d54e53` Red  
+`#e78c45` Orange  
+`#e7c547` Yellow  
+`#b9ca4a` Green  
+`#70c0b1` Aqua  
+`#7aa6da` Blue  
+`#c397d8` Purple
 
 ## Language Support
 The theme has been designed to be language independent and should look great with any language. However, if you find this isn't the case, just send me some sample code and I'll try to fix it!
