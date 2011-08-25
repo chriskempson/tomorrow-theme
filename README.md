@@ -13,6 +13,7 @@ Tomorrow theme variations in shown in TextMate with Ruby code.
 ## Supported Editors
 * TextMate
 * Vim (Full-colour and 256-colour)
+* GNU Emacs
 * Xcode 4
 * Coda
 * Eclipse
@@ -20,6 +21,7 @@ Tomorrow theme variations in shown in TextMate with Ruby code.
 * Redcar (Uses TextMate Themes)
 * E TextEditor (Uses TextMate Themes)
 * SubEthaEdit (Uses Coda Themes)
+* BBEdit
 
 ## Hex Palettes
 
