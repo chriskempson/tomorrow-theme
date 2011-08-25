@@ -13,6 +13,7 @@ let s:red = "cc6666"
 let s:orange = "de935f"
 let s:yellow = "f0c674"
 let s:green = "b5bd68"
+let s:aqua = "8abeb7"
 let s:blue = "81a2be"
 let s:purple = "b294bb"
 
@@ -272,7 +273,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("String", s:green, "", "")
 	call <SID>X("Special", s:foreground, "", "")
 	call <SID>X("PreProc", s:purple, "", "")
-	call <SID>X("Operator", s:foreground, "", "none")
+	call <SID>X("Operator", s:aqua, "", "none")
 	call <SID>X("Type", s:blue, "", "none")
 	call <SID>X("Define", s:purple, "", "none")
 	call <SID>X("Include", s:blue, "", "") 
@@ -300,6 +301,11 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("rubyInclude", s:blue, "", "")
 	call <SID>X("rubyLocalVariableOrMethod", s:orange, "", "")
 	call <SID>X("rubyCurlyBlock", s:orange, "", "")
+
+	" Python Highlighting
+	call <SID>X("pythonInclude", s:purple, "", "")
+	call <SID>X("pythonStatement", s:purple, "", "")
+	call <SID>X("pythonConditional", s:purple, "", "")
 
 	" Delete Functions
 	delf <SID>X

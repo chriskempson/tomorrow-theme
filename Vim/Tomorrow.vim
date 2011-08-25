@@ -292,7 +292,12 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("rubyAttribute", s:blue, "", "")	
 	call <SID>X("rubyInclude", s:blue, "", "")
 	call <SID>X("rubyLocalVariableOrMethod", s:orange, "", "")	
-	call <SID>X("rubyCurlyBlock", s:orange, "", "") 
+	call <SID>X("rubyCurlyBlock", s:orange, "", "")
+	
+	" Python Highlighting
+	call <SID>X("pythonInclude", s:purple, "", "")
+	call <SID>X("pythonStatement", s:purple, "", "")
+	call <SID>X("pythonConditional", s:purple, "", "")
 
 	" Delete Functions
 	delf <SID>X

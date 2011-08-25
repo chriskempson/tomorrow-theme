@@ -1,27 +1,27 @@
-" Tomorrow Night Blue - Full Colour and 256 Colour
+" Tomorrow Night Bright - Full Colour and 256 Colour
 " http://chriskempson.com
 "
 " Hex colour conversion functions borrowed from the theme "Desert256""
 
 " Default GUI Colours
-let s:foreground = "ffffff"
-let s:background = "002451"
-let s:selection = "003f8e"
-let s:line = "00346e"
-let s:comment = "7285b7"
-let s:red = "ff9da4"
-let s:orange = "ffc58f"
-let s:yellow = "ffeead"
-let s:green = "d1f1a9"
-let s:aqua = "99ffff"
-let s:blue = "bbdaff"
-let s:purple = "ebbbff"
+let s:foreground = "eaeaea"
+let s:background = "000000"
+let s:selection = "424242"
+let s:line = "2a2a2a"
+let s:comment = "969896"
+let s:red = "d54e53"
+let s:orange = "e78c45"
+let s:yellow = "e7c547"
+let s:green = "b9ca4a"
+let s:aqua = "70c0b1"
+let s:blue = "7aa6da"
+let s:purple = "c397d8"
 
 set background=dark
 hi clear
 syntax reset
 
-let g:colors_name = "Tomorrow-Night-Blue"
+let g:colors_name = "Tomorrow-Night-Bright"
 
 if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	" Returns an approximate grey index for the given grey level
