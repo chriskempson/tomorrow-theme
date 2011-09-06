@@ -13,7 +13,7 @@ let s:red = "f2777a"
 let s:orange = "f99157"
 let s:yellow = "ffcc66"
 let s:green = "99cc99"
-let s:aqua = "66cccc"
+let s:aqua = "009999"
 let s:blue = "99cccc"
 let s:purple = "cc99cc"
 
