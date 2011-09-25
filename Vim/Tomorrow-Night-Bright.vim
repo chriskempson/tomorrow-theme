@@ -6,7 +6,7 @@
 " Default GUI Colours
 let s:foreground = "eaeaea"
 let s:background = "000000"
-let s:selection = "424242"
+let s:selection = "562D56"
 let s:line = "2a2a2a"
 let s:comment = "969896"
 let s:search= "daa520"
