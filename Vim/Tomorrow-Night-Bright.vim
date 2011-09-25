@@ -9,6 +9,7 @@ let s:background = "000000"
 let s:selection = "424242"
 let s:line = "2a2a2a"
 let s:comment = "969896"
+let s:search= "daa520"
 let s:red = "d54e53"
 let s:orange = "e78c45"
 let s:yellow = "e7c547"
@@ -236,7 +237,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("LineNr", s:foreground, "", "")
 	call <SID>X("NonText", s:selection, "", "")
 	call <SID>X("SpecialKey", s:selection, "", "")
-	call <SID>X("Search", s:background, s:yellow, "")
+	call <SID>X("Search", s:background, s:search, "")
 	call <SID>X("TabLine", s:foreground, s:background, "reverse")
 	call <SID>X("StatusLine", s:foreground, s:background, "reverse")
 	call <SID>X("StatusLineNC", s:foreground, s:background, "reverse")
