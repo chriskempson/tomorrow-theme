@@ -23,7 +23,8 @@ Tomorrow theme variations in shown in TextMate with Ruby code.
 * E TextEditor (Uses TextMate Themes)
 * SubEthaEdit (Uses Coda Themes)
 * BBEdit
-* Ace (Cloud9) Editor
+* Ace Editor
+* IntelliJ
 
 ## Hex Palettes
 
