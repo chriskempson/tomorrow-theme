@@ -5,7 +5,7 @@
 
 (require 'color-theme)
 
-(defun color-theme-tomorrow-real (variant)
+(defun color-theme-tomorrow-real (&optional variant)
   "GNU Emacs port of Chris Kempson's Tomorrow theme. Port by Chris Charles."
 
   (let ((background "#ffffff")
@@ -128,7 +128,7 @@
 (defun color-theme-tomorrow ()
   "Base light Tomorrow theme."
   (interactive)
-  (color-theme-tomorrow-real nil))
+  (color-theme-tomorrow-real))
 (provide 'color-theme-tomorrow)
 
 (defun color-theme-tomorrow-night ()
