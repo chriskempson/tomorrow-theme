@@ -1,12 +1,22 @@
-;; Tomorrow Theme
+;;; color-theme-tomorrow.el --- GNU Emacs port of the Tomorrow Theme.
+
+;;; Commentary:
+;;
+;;; Tomorrow Theme
 ;;
 ;; Originally by Chris Kempson https://github.com/ChrisKempson/Tomorrow-Theme
 ;; Ported to GNU Emacs by Chris Charles
 
 (require 'color-theme)
 
+;;; Code:
+
 (defun color-theme-tomorrow-real (&optional variant)
-  "GNU Emacs port of Chris Kempson's Tomorrow theme. Port by Chris Charles."
+  "Enable the appropriate Tomorrow theme based on VARIANT.
+
+VARIANT can be 'night, 'night-eighties, 'night-blue or
+'night-bright.  If VARIANT is not present, the light Tomorrow
+theme will be used."
 
   (let ((background "#ffffff")
         (current-line "#e9efff")
@@ -171,3 +181,5 @@
 (add-to-list 'color-themes
              '(color-theme-tomorrow-night-bright
                "Tomorrow Night Bright" "Chris Kempson (ported by Chris Charles)"))
+
+;;; color-theme-tomorrow.el ends here
