@@ -25,6 +25,7 @@ Tomorrow theme variations in shown in TextMate with Ruby code.
 * BBEdit
 * Ace Editor
 * IntelliJ
+* Visual Studio
 
 ## Hex Palettes
 
