@@ -259,6 +259,9 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 		call <SID>X("PMenu", s:foreground, s:selection, "none")
 		call <SID>X("PMenuSel", s:foreground, s:selection, "reverse")
 	end
+  if version >= 703
+		call <SID>X("ColorColumn", "", s:line, "none")
+	end
 
 	" Standard Highlighting
 	call <SID>X("Comment", s:comment, "", "")
