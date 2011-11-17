@@ -240,6 +240,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("TabLine", s:foreground, s:background, "reverse")
 	call <SID>X("StatusLine", s:foreground, s:background, "reverse")
 	call <SID>X("StatusLineNC", s:foreground, s:background, "reverse")
+	call <SID>X("VertSplit", s:foreground, s:foreground, "")
 	call <SID>X("Visual", "", s:selection, "")
 	call <SID>X("Directory", s:blue, "", "")
 	call <SID>X("ModeMsg", s:green, "", "")
