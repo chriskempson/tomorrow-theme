@@ -267,6 +267,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	end
 	if version >= 703
 		call <SID>X("ColorColumn", "", s:line, "none")
+		call <SID>X("SignColumn", "", s:background, "none")
 	end
 
 	" Standard Highlighting
@@ -335,6 +336,12 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	" Diff Highlighting
 	call <SID>X("diffAdded", s:green, "", "")
 	call <SID>X("diffRemoved", s:red, "", "")
+
+    " ShowMarks Highlighting
+    call <SID>X("ShowMarksHLl", s:orange, s:background, "none")
+    call <SID>X("ShowMarksHLo", s:purple, s:background, "none")
+    call <SID>X("ShowMarksHLu", s:yellow, s:background, "none")
+    call <SID>X("ShowMarksHLm", s:aqua, s:background, "none")
 
 	" Delete Functions
 	delf <SID>X
