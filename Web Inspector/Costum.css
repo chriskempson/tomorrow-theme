@@ -456,20 +456,8 @@ color:/*tomorroe-night-Background */hsl(210, 6%, 15%) !important;
 }
 
 .editing {
-    -webkit-user-select: text;
-    -webkit-box-shadow: rgba(0, 0, 0, .5) 3px 3px 4px;
     outline: 1px solid /*tomorroe-night-Background */hsl(210, 6%, 12%) !important;
     background-color: /*tomorroe-night-Foreground*/hsl(140,2%,77%)!important;
-    -webkit-user-modify: read-write-plaintext-only;
-    text-overflow: clip !important;
-    padding-left: 2px;
-    margin-left: -2px;
-    padding-right: 2px;
-    margin-right: -2px;
-    margin-bottom: -1px;
-    padding-bottom: 1px;
-    opacity: 1.0 !important;
-    
 }
 
 
