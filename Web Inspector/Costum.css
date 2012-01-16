@@ -6,6 +6,7 @@
 
   Inspired by Ben Truyman's IR_Black translation
   and Darcy Clarke's blog post:
+
   http://darcyclarke.me/design/skin-your-chrome-inspector/
 
   if you want to create your own color scheme just select the color name 
@@ -474,9 +475,18 @@ color:/*tomorroe-night-Background */hsl(210, 6%, 15%) !important;
     opacity: 1.0 !important;
     
 }
+
+
+.section .properties .name, .event-properties .name {
+  color:/*tomorroe-night-Yellow*/hsl(39,80%,69%)!important;
+}
+
 .section .properties .name.editing
-.editing .webkit-css-property{
+,.webkit-css-property.editing{
   color:/*tomorroe-night-Background */hsl(210, 6%, 12%)!important;
+}
+.child-editing{
+  color: /*tomorroe-night-Foreground*/hsl(140,2%,77%)!important;
 }
 
 /* Time Line */
