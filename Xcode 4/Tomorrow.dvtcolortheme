@@ -43,7 +43,7 @@
 	<key>DVTSourceTextSyntaxColors</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
-		<string>0.868731 0.575814 0.373674 1</string>
+		<string>0.971483 0.530718 0.0375477 1</string>
 		<key>xcode.syntax.character</key>
 		<string>0.971483 0.530718 0.0375477 1</string>
 		<key>xcode.syntax.comment</key>
@@ -51,27 +51,27 @@
 		<key>xcode.syntax.comment.doc</key>
 		<string>0.555162 0.564683 0.5504 1</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>0.540796 0.340821 0.667724 1</string>
+		<string>0.540796 0.340821 0.667724 0.8</string>
 		<key>xcode.syntax.identifier.class</key>
-		<string>0.923358 0.725624 0 1</string>
+		<string>0.22806 0.598894 0.628281 1</string>
 		<key>xcode.syntax.identifier.class.system</key>
-		<string>0.923358 0.725624 0 1</string>
+		<string>0.22806 0.598894 0.628281 1</string>
 		<key>xcode.syntax.identifier.constant</key>
-		<string>0.555162 0.564683 0.5504 1</string>
-		<key>xcode.syntax.identifier.constant.system</key>
-		<string>0.770437 0.783913 0.778299 1</string>
-		<key>xcode.syntax.identifier.function</key>
 		<string>0.923358 0.725624 0 1</string>
+		<key>xcode.syntax.identifier.constant.system</key>
+		<string>0.923358 0.725624 0 1</string>
+		<key>xcode.syntax.identifier.function</key>
+		<string>0.25043 0.439404 0.691119 1</string>
 		<key>xcode.syntax.identifier.function.system</key>
 		<string>0.25043 0.439404 0.691119 1</string>
 		<key>xcode.syntax.identifier.macro</key>
-		<string>0.22806 0.598894 0.628281 1</string>
+		<string>0.540796 0.340821 0.667724 1</string>
 		<key>xcode.syntax.identifier.macro.system</key>
-		<string>0.22806 0.598894 0.628281 1</string>
+		<string>0.540796 0.340821 0.667724 1</string>
 		<key>xcode.syntax.identifier.type</key>
 		<string>0.793012 0.152623 0.143433 1</string>
 		<key>xcode.syntax.identifier.type.system</key>
-		<string>0.868731 0.575814 0.373674 1</string>
+		<string>0.971483 0.530718 0.0375477 1</string>
 		<key>xcode.syntax.identifier.variable</key>
 		<string>0.793012 0.152623 0.143433 1</string>
 		<key>xcode.syntax.identifier.variable.system</key>
