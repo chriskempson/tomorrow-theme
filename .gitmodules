@@ -1,6 +1,0 @@
-[submodule "TextMate"]
-	path = TextMate
-	url = git://github.com/chriskempson/TextMate-Tomorrow-Theme.git
-[submodule "Vim"]
-	path = Vim
-	url = git://github.com/chriskempson/Vim-Tomorrow-Theme.git
