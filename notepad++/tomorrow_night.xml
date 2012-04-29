@@ -29,8 +29,8 @@ Requirements:
     * Notepad++, of course.
 
 Installation:
-    Copy this file to %APPDATA%\Notepad++\ (start->run, type: %APPDATA%\Notepad++, hit Enter) and
-    %PROGRAMFILES%\Notepad++\ (start->run, type: %PROGRAMFILES%\Notepad++, hit Enter)
+    Copy this file to %APPDATA%\Notepad++\themes (start->run, type: %APPDATA%\Notepad++, hit Enter) and
+    %PROGRAMFILES%\Notepad++\themes (start->run, type: %PROGRAMFILES%\Notepad++, hit Enter)
 
 About:
     This styler has been built by Textmate theme to Notepad++ styler <http://framework.lojcomm.com.br/tmTheme2nppStyler/>
