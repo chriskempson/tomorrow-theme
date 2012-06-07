@@ -1,0 +1,50 @@
+!TomorrowNightBlue
+#define t_background        #002451
+#define t_current_line      #00346e
+#define t_selection      	#003f8e
+#define t_foreground      	#ffffff
+#define t_comment	     	#7285b7
+#define t_red		     	#ff9da4
+#define t_orange	     	#ffc58f
+#define t_yellow        	#ffeead
+#define t_green	        	#d1f1a9
+#define t_aqua	        	#99ffff
+#define t_blue	        	#bbdaff
+#define t_purple        	#ebbbff
+
+
+*.foreground:   t_foreground
+*.background:   t_background
+*.cursorColor:  #aeafad
+
+! Black / Grey
+*.color0:       #000000
+*.color8:       #666666
+
+! Red / Bright Red
+*.color1:       t_red
+*.color9:       #FF3334
+
+! Green + Bright Green
+*.color2:       t_green
+*.color10:      #9ec400
+
+! Yellow (Orange) + Bright Yellow (Yellow)
+*.color3:       t_orange
+*.color11:      t_yellow
+
+! Blue + Bright Blue
+*.color4:       t_blue
+*.color12:      t_blue
+
+! Magenta (Purple) + Bright Magenta
+*.color5:       t_purple
+*.color13:      #b777e0
+
+! Cyan (Aqua) + Bright Cyan
+*.color6:       t_aqua
+*.color14:      #54ced6
+
+! Light Grey (Selection) + White (Current Line)
+*.color7:       t_selection
+*.color15:      t_current_line
