@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colorTheme id="1867" name="Tomorrow Night Bright" modified="2012-07-05 20:28:32" author="Chris Kempson" website="http://github.com/ChrisKempson/Tomorrow-Theme">
+    <searchResultIndication color="#E7C547" />
+    <filteredSearchResultIndication color="#E7C547" />
+    <occurrenceIndication color="#4B4E55" />
+    <writeOccurrenceIndication color="#4B4E55" />
+    <findScope color="#4B4E55" />
+    <deletionIndication color="#DF5F5F" />
+    <sourceHoverBackground color="#4B4E55" />
+    <singleLineComment color="#969896" italic="false" />
+    <multiLineComment color="#969896" italic="false" />
+    <commentTaskTag color="#969896" />
+    <javadoc color="#969896" italic="false" />
+    <javadocLink color="#969896" />
+    <javadocTag color="#CED1CF" />
+    <javadocKeyword color="#CED1CF" />
+    <class color="#E7C547" />
+    <interface color="#C397D8" />
+    <method color="#7AA6DA" />
+    <methodDeclaration color="#7AA6DA" />
+    <bracket color="#EAEAEA" />
+    <number color="#E78C45" />
+    <string color="#B9CA4A" />
+    <operator color="#CED1CF" />
+    <keyword color="#C397D8" />
+    <annotation color="#4B4E55" />
+    <staticMethod color="#7AA6DA" />
+    <localVariable color="#D54E53" />
+    <localVariableDeclaration color="#D54E53" />
+    <field color="#E78C45" />
+    <staticField color="#E78C45" />
+    <staticFinalField color="#E78C45" />
+    <deprecatedMember color="#4B4E55" underline="false" strikethrough="false" />
+    <enum color="#E78C45" />
+    <inheritedMethod color="#7AA6DA" />
+    <abstractMethod color="#7AA6DA" />
+    <parameterVariable color="#D54E53" />
+    <typeArgument color="#E78C45" />
+    <typeParameter color="#E78C45" />
+    <constant color="#E78C45" bold="false" underline="false" strikethrough="false" />
+    <background color="#000000" />
+    <currentLine color="#2A2A2A" />
+    <foreground color="#EAEAEA" />
+    <lineNumber color="#EAEAEA" />
+    <selectionBackground color="#424242" />
+    <selectionForeground color="#EAEAEA" />
+</colorTheme>
