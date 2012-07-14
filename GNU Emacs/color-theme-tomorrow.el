@@ -20,7 +20,7 @@ theme will be used."
 
   (let ((background "#ffffff")
         (current-line "#e9efff")
-        (selection "#c5cce9")
+        (selection "#d6d6d6")
         (foreground "#4d4d4c")
         (comment "#8e908c")
         (cursor "#aeafad")
@@ -58,8 +58,8 @@ theme will be used."
                  orange "#f99157"
                  yellow "#ffcc66"
                  green "#99cc99"
-                 aqua "#009999"
-                 blue "#99cccc"
+                 aqua "#66cccc"
+                 blue "#6699cc"
                  purple "#cc99cc"))
 
           ((eq variant 'night-blue)
@@ -81,7 +81,7 @@ theme will be used."
            (setq background "#000000"
                  current-line "#2a2a2a"
                  selection "#424242"
-                 foreground "#dedede"
+                 foreground "#eaeaea"
                  comment "#969896"
                  cursor "#9f9f9f"
                  red "#d54e53"
