@@ -23,8 +23,8 @@
       (orange "#f99157")
       (yellow "#ffcc66")
       (green "#99cc99")
-      (aqua "#009999")
-      (blue "#99cccc")
+      (aqua "#66cccc")
+      (blue "#6699cc")
       (purple "#cc99cc"))
 
   (custom-theme-set-faces
