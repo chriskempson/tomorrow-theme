@@ -16,7 +16,7 @@
 (let ((background "#000000")
       (current-line "#2a2a2a")
       (selection "#424242")
-      (foreground "#dedede")
+      (foreground "#eaeaea")
       (comment "#969896")
       (cursor "#9f9f9f")
       (red "#d54e53")
