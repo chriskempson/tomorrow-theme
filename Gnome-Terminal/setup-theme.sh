@@ -23,7 +23,7 @@ glist_append() {
 
   local entries="$(
     {
-      gconftool --get "$key" | tr -d '[]' | tr , "\n" | fgrep -v "$val"
+      "$GCONFTOOL" --get "$key" | tr -d '[]' | tr , "\n" | fgrep -v "$val"
       echo "$val"
     } | head -c-1 | tr "\n" ,
   )"
