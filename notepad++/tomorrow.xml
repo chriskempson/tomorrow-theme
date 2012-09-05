@@ -729,10 +729,10 @@ Credits:
         <WidgetStyle name="Selected text colour" styleID="0" bgColor="D6D6D6" />
         <WidgetStyle name="Caret colour" styleID="2069" fgColor="AEAFAD" />
         <WidgetStyle name="Find Mark Style" styleID="31" fgColor="C82829" bgColor="EAB700" fontName="" fontStyle="0" fontSize="" />
-        <WidgetStyle name="Edge colour" styleID="0" fgColor="EEEEEC" />
-        <WidgetStyle name="Line number margin" styleID="33" fgColor="EEEEEC" bgColor="2E3436" fontName="" fontStyle="0" fontSize="8" />
-        <WidgetStyle name="Fold" styleID="0" fgColor="2E3436" bgColor="EEEEEC" />
-        <WidgetStyle name="Fold margin" styleID="0" fgColor="555753" bgColor="2E3436" />
+        <WidgetStyle name="Edge colour" styleID="0" fgColor="D6D6D6" />
+        <WidgetStyle name="Line number margin" styleID="33" fgColor="4D4D4C" bgColor="D6D6D6" fontName="" fontStyle="0" fontSize="8" />
+        <WidgetStyle name="Fold" styleID="0" fgColor="2E3436" bgColor="D6D6D6" />
+        <WidgetStyle name="Fold margin" styleID="0" fgColor="EFEFEF" bgColor="EFEFEF" />
         <WidgetStyle name="White space symbol" styleID="0" fgColor="FCAF3E" />
         <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="888A85" />
         <WidgetStyle name="Incremental highlight all" styleID="28" bgColor="888A85" />
