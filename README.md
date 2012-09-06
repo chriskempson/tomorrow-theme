@@ -6,7 +6,7 @@ A theme should not get in your way but should aid your programming with easily i
 Check out [base16](https://github.com/chriskempson/base16) the next evolution of Tomorrow Theme!
 
 ## Take a look!
-Tomorrow theme variations in shown in TextMate with Ruby code.  
+Tomorrow theme variations in shown in TextMate with Ruby code and the font "Menlo".  
 ![Ruby Code in Tomorrow Night](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Night.png)
 ![Ruby Code in Tomorrow](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow.png)
 ![Ruby Code in Tomorrow Night Eighties](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Night-Eighties.png)
