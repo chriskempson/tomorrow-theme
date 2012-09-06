@@ -74,7 +74,23 @@
    `(rainbow-delimiters-depth-6-face ((t (:foreground ,orange))))
    `(rainbow-delimiters-depth-7-face ((t (:foreground ,red))))
    `(rainbow-delimiters-depth-8-face ((t (:foreground ,comment))))
-   `(rainbow-delimiters-depth-9-face ((t (:foreground ,foreground)))))
+   `(rainbow-delimiters-depth-9-face ((t (:foreground ,foreground))))
+
+   ;; auctex
+   `(font-latex-bold-face ((t (:foreground ,green))))
+   `(font-latex-doctex-documentation-face ((t (:background ,current-line))))
+   `(font-latex-italic-face ((t (:foreground ,green))))
+   `(font-latex-math-face ((t (:foreground ,orange))))
+   `(font-latex-sectioning-0-face ((t (:foreground ,yellow))))
+   `(font-latex-sectioning-1-face ((t (:foreground ,yellow))))
+   `(font-latex-sectioning-2-face ((t (:foreground ,yellow))))
+   `(font-latex-sectioning-3-face ((t (:foreground ,yellow))))
+   `(font-latex-sectioning-4-face ((t (:foreground ,yellow))))
+   `(font-latex-sectioning-5-face ((t (:foreground ,yellow))))
+   `(font-latex-sedate-face ((t (:foreground ,aqua))))
+   `(font-latex-string-face ((t (:foreground ,yellow))))
+   `(font-latex-verbatim-face ((t (:foreground ,orange))))
+   `(font-latex-warning-face ((t (:foreground ,red)))))
 
   (custom-theme-set-variables
    'tomorrow-night-eighties
