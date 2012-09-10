@@ -32,10 +32,21 @@
 
    ;; Built-in stuff (Emacs 23)
    `(default ((t (:background ,background :foreground ,foreground))))
+   `(error ((t (:foreground ,red))))
+   `(escape-glyph ((t (:foreground ,aqua))))
    `(fringe ((t (:background ,current-line))))
+   `(highlight ((t (:background ,green :foreground ,current-line))))
+   `(link ((t (:foreground ,blue))))
+   `(link-visited ((t (:foreground ,purple))))
    `(minibuffer-prompt ((t (:foreground ,blue))))
-   `(mode-line ((t (:background ,current-line :foreground ,foreground))))
+   `(mode-line ((t (:background ,selection :foreground ,foreground))))
+   `(mode-line-inactive ((t (:background ,current-line :foreground ,foreground))))
    `(region ((t (:background ,selection))))
+   `(secondary-selection ((t (:background ,blue))))
+   `(shadow ((t (:foreground ,comment))))
+   `(success ((t (:foreground ,green))))
+   `(trailing-whitespace ((t (:background ,red))))
+   `(warning ((t (:foreground ,orange))))
 
    ;; Font-lock stuff
    `(font-lock-comment-face ((t (:foreground ,comment))))
