@@ -49,14 +49,15 @@
    `(warning ((t (:foreground ,orange))))
 
    ;; Font-lock stuff
+   `(font-lock-builtin-face ((t (:foreground ,aqua))))
    `(font-lock-comment-face ((t (:foreground ,comment))))
-   `(font-lock-constant-face ((t (:foreground ,green))))
+   `(font-lock-constant-face ((t (:foreground ,aqua))))
    `(font-lock-doc-string-face ((t (:foreground ,comment))))
    `(font-lock-function-name-face ((t (:foreground ,blue))))
    `(font-lock-keyword-face ((t (:foreground ,purple))))
    `(font-lock-string-face ((t (:foreground ,green))))
    `(font-lock-type-face ((t (:foreground ,yellow))))
-   `(font-lock-variable-name-face ((t (:foreground ,red))))
+   `(font-lock-variable-name-face ((t (:foreground ,orange))))
    `(font-lock-warning-face ((t (:foreground ,red))))
 
    ;; hl-line-mode
