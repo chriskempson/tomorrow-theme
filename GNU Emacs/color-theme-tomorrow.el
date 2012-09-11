@@ -147,6 +147,18 @@ theme will be used."
        (show-paren-match-face ((t (:background ,blue :foreground ,current-line))))
        (show-paren-mismatch-face ((t (:background ,orange :foreground ,current-line))))
 
+       ;; whitespace-mode
+       (whitespace-empty ((t (:background ,yellow :foreground ,red))))
+       (whitespace-hspace ((t (:background ,selection :foreground ,comment))))
+       (whitespace-indentation ((t (:background ,yellow :foreground ,red))))
+       (whitespace-line ((t (:background ,current-line :foreground ,purple))))
+       (whitespace-newline ((t (:foreground ,comment))))
+       (whitespace-space ((t (:background ,current-line :foreground ,comment))))
+       (whitespace-space-after-tab ((t (:background ,yellow :foreground ,red))))
+       (whitespace-space-before-tab ((t (:background ,orange :foreground ,red))))
+       (whitespace-tab ((t (:background ,selection :foreground ,comment))))
+       (whitespace-trailing ((t (:background ,red :foreground ,yellow))))
+
        ;; rainbow-delimiters
        (rainbow-delimiters-depth-1-face ((t (:foreground ,purple))))
        (rainbow-delimiters-depth-2-face ((t (:foreground ,blue))))
