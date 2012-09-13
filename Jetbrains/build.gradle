@@ -1,0 +1,143 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+  dependencies {
+    classpath 'org.freemarker:freemarker:2.3.19'
+  }
+}
+
+task generate << {
+
+  def cfg = new freemarker.template.Configuration()
+  cfg.setDirectoryForTemplateLoading(file('src/main/resources'))
+  cfg.setObjectWrapper(new freemarker.template.DefaultObjectWrapper())
+
+  def template = cfg.getTemplate('Tomorrow.xml.ftl')
+
+  [
+    // Tomorrow
+    [
+      Name : 'Tomorrow',
+      Background : 'ffffff',
+      Current_Line : 'efefef',
+      Selection : 'd6d6d6',
+      Foreground : '4d4d4c',
+      Comment : '8e908c',
+      Red : 'c82829',
+      Orange : 'f5871f',
+      Yellow : 'eab700',
+      Green : '718c00',
+      Acqua : '3e999f',
+      Blue : '4271ae',
+      Purple : '8959a8'
+    ],
+
+    // Tomorrow Night
+    [
+      Name : 'Tomorrow Night',
+      Background : '1d1f21',
+      Current_Line : '282a2e',
+      Selection : '373b41',
+      Foreground : 'c5c8c6',
+      Comment : '969896',
+      Red : 'cc6666',
+      Orange : 'de935f',
+      Yellow : 'f0c674',
+      Green : 'b5bd68',
+      Acqua : '8abeb7',
+      Blue : '81a2be',
+      Purple : 'b294bb'
+    ],
+
+    // Tomorrow Night Eighties
+    [
+      Name : 'Tomorrow Night Eighties',
+      Background : '2d2d2d',
+      Current_Line : '393939',
+      Selection : '515151',
+      Foreground : 'cccccc',
+      Comment : '999999',
+      Red : 'f2777a',
+      Orange : 'f99157',
+      Yellow : 'ffcc66',
+      Green : '99cc99',
+      Acqua : '66cccc',
+      Blue : '6699cc',
+      Purple : 'cc99cc'
+    ],
+
+    // Tomorrow Night Blue
+    [
+      Name : 'Tomorrow Night Blue',
+      Background : '002451',
+      Current_Line : '00346e',
+      Selection : '003f8e',
+      Foreground : 'ffffff',
+      Comment : '7285b7',
+      Red : 'ff9da4',
+      Orange : 'ffc58f',
+      Yellow : 'ffeead',
+      Green : 'd1f1a9',
+      Acqua : '99ffff',
+      Blue : 'bbdaff',
+      Purple : 'ebbbff'
+    ],
+
+    // Tomorrow Night Bright
+    [
+      Name : 'Tomorrow Night Bright',
+      Background : '000000',
+      Current_Line : '2a2a2a',
+      Selection : '424242',
+      Foreground : 'eaeaea',
+      Comment : '969896',
+      Red : 'd54e53',
+      Orange : 'e78c45',
+      Yellow : 'e7c547',
+      Green : 'b9ca4a',
+      Acqua : '70c0b1',
+      Blue : '7aa6da',
+      Purple : 'c397d8'
+    ]
+  ].each {
+    def stream = new FileOutputStream("colors/${it['Name']}.xml")
+    Writer out = new OutputStreamWriter(stream)
+    template.process(it, out)
+    out.flush()
+    stream.close();
+  }
+
+}
+
+jar {
+  archiveName="settings.jar"
+  into('colors') {
+    from 'colors'
+  }
+  into('options') {
+    from 'options'
+  }
+}
+
+task install(type:Copy) {
+  from "$buildDir/libs"
+  include 'settings.jar'
+  into '.'
+}
+tasks.install.dependsOn(jar)
+
+tasks.idea.dependsOn(cleanIdea)
+idea {
+  module {
+    excludeDirs += file('.settings')
+  }
+  project.ipr {
+    withXml { provider ->
+      def component = provider.node.component.find { it.@name == 'VcsDirectoryMappings' }
+      component.mapping.@directory = '$PROJECT_DIR$/..'
+      component.mapping.@vcs = 'Git'
+}}}

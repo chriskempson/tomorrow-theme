@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="EditorColorsManagerImpl">
-    <option name="USE_ONLY_MONOSPACED_FONTS" value="false" />
-    <global_color_scheme name="Tomorrow Night" />
+    <option name="USE_ONLY_MONOSPACED_FONTS" value="false"/>
+    <global_color_scheme name="Tomorrow"/>
+  </component>
+  <component name="EditorColorsManagerImpl">
+    <option name="USE_ONLY_MONOSPACED_FONTS" value="false"/>
+    <global_color_scheme name="Tomorrow Night"/>
+  </component>
+  <component name="EditorColorsManagerImpl">
+    <option name="USE_ONLY_MONOSPACED_FONTS" value="false"/>
+    <global_color_scheme name="Tomorrow Night Eighties"/>
+  </component>
+  <component name="EditorColorsManagerImpl">
+    <option name="USE_ONLY_MONOSPACED_FONTS" value="false"/>
+    <global_color_scheme name="Tomorrow Night Blue"/>
+  </component>
+  <component name="EditorColorsManagerImpl">
+    <option name="USE_ONLY_MONOSPACED_FONTS" value="false"/>
+    <global_color_scheme name="Tomorrow Night Bright"/>
   </component>
 </application>
 
