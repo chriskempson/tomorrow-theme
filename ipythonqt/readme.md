@@ -17,6 +17,6 @@ to the command.
 
 * Author: André Risnes
 * Master: https://github.com/ChrisKempson/Tomorrow-Theme
-* Fork: https://github.com/zenander/Tomorrow-Theme
+* Fork: https://github.com/AndreRisnes/Tomorrow-Theme
 
 Please report any issues or suggestions to the fork.
