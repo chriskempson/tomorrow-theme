@@ -224,10 +224,10 @@
 							<Item Name="XAML Comment" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XAML Delimiter" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XAML Keyword" Foreground="0x00BB94B2" Background="0x02000000" BoldFont="No"/>
-							<Item Name="XAML Markup Extension Class" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
-							<Item Name="XAML Markup Extension Parameter Name" Foreground="0x006666CC" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XAML Markup Extension Class" Foreground="0x00BB94B2" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XAML Markup Extension Parameter Name" Foreground="0x00B7BE8A" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XAML Markup Extension Parameter Value" Foreground="0x00BEA281" Background="0x02000000" BoldFont="No"/>
-							<Item Name="XAML Name" Foreground="0x00B7BE8A" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XAML Name" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XAML Processing Instruction" Foreground="0x00EAEAEA" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XAML Text" Foreground="0x00C6C8C5" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XML Attribute" Foreground="0x006666CC" Background="0x02000000" BoldFont="No"/>
@@ -235,14 +235,14 @@
 							<Item Name="XML Attribute Value" Foreground="0x0068BDB5" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XML CData Section" Foreground="0x00EAEAEA" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XML Comment" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
-							<Item Name="XML Delimiter" Foreground="0x00C6C8C5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XML Delimiter" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XML Doc Attribute" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XML Doc Comment" Foreground="0x00C6C8C5" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XML Doc Tag" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XML Keyword" Foreground="0x00BB94B2" Background="0x00271824" BoldFont="No"/>
-							<Item Name="XML Name" Foreground="0x00B7BE8A" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XML Name" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XML Processing Instruction" Foreground="0x00EAEAEA" Background="0x02000000" BoldFont="No"/>
-							<Item Name="XML Text" Foreground="0x00FFFFFF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XML Text" Foreground="0x00C6C8C5" Background="0x02000000" BoldFont="No"/>
 							<Item Name="XSLT Keyword" Foreground="0x00BB94B2" Background="0x02000000" BoldFont="No"/>
 						</Items>
 					</Category>
