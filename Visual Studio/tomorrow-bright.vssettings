@@ -194,7 +194,7 @@
 							<Item Name="Tracepoint - Mapped (Enabled)" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Tracepoint - Mapped (Error)" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Tracepoint - Mapped (Warning)" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
-							<Item Name="urlformat" Foreground="0x00BB94B2" Background="0x02000000" BoldFont="No"/>
+							<Item Name="urlformat" Foreground="0x00BEA281" Background="0x02000000" BoldFont="No"/>
 							<Item Name="User Types" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
 							<Item Name="User Types(Delegates)" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
 							<Item Name="User Types(Enums)" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
