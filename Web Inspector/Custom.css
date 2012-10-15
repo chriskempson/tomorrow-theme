@@ -557,10 +557,10 @@ background-color: #444!important;
 color:/*tomorroe-night-Background*/hsl(210, 6%, 15%) !important;
 }
 
-#-webkit-web-inspector .editing, .editing * {
+#-webkit-web-inspector .editing, #-webkit-web-inspector .editing * {
     outline: 1px solid /*tomorroe-night-Background*/hsl(210,6%,12%)!important;
     background-color: /*tomorroe-night-Foreground*/hsl(140,2%,77%)!important;
-    color: /*tomorroe-night-Background*/hsl(210,6%,12%)!important;
+    color: /* whiter foreground to make editing visible */hsl(210,6%,88%)!important;
 }
 
 
