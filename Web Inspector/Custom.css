@@ -303,7 +303,7 @@ ignore{
     color: /*tomorroe-night-Foreground*/hsl(140,2%,77%)!important;
   }
   
-  #-webkit-web-inspector .webkit-css-keyword,.value{
+  #-webkit-web-inspector .webkit-css-keyword, #-webkit-web-inspector .value{
     color: /*tomorroe-night-Red*/hsl(0,50%,60%) !important;
   }
   
