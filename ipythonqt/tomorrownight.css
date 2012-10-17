@@ -1,0 +1,10 @@
+QPlainTextEdit, QTextEdit {
+    background-color: #1d1f21;
+    color: #c5c8c6;
+    selection-background-color: #373b41
+}
+.error { color: #cc6666; }
+.in-prompt { color: #b5bd68 }
+.in-prompt-number { font-weight: normal; }
+.out-prompt { color: #8abeb7; }
+.out-prompt-number { font-weight: normal; }
