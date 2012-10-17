@@ -4,7 +4,7 @@ background: 2d2d2d
 caret: cc99cc
 
 editor-selection
-foreground: cccccc
+foreground: ffffff
 background: 515151
 
 H1
