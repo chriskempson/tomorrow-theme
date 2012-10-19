@@ -9,16 +9,16 @@ Take these files and drop them into your `styles` directory in the Brackets sour
 
 # Examples
 ## Tomorrow Night
-![Brackets Tomorrow Night](examples/brackets-tomorrow-night.png)
+![Brackets Tomorrow Night](https://github.com/ryanstewart/tomorrow-theme/blob/Brackets/Brackets/examples/brackets-tomorrow-night.png)
 
 ## Tomorrow
-![Brackets Tomorrow](examples/brackets-tomorrow.png)
+![Brackets Tomorrow](https://github.com/ryanstewart/tomorrow-theme/blob/Brackets/Brackets/examples/brackets-tomorrow.png)
 
 ## Tomorrow Night Eighties
-![Brackets Tomorrow Night Eighties](examples/brackets-tomorrow-night-eighties.png)
+![Brackets Tomorrow Night Eighties](https://github.com/ryanstewart/tomorrow-theme/blob/Brackets/Brackets/examples/brackets-tomorrow-night-eighties.png)
 
 ## Tomorrow Night Blue
-![Brackets Tomorrow Night Blue](examples/brackets-tomorrow-night-blue.png)
+![Brackets Tomorrow Night Blue](https://github.com/ryanstewart/tomorrow-theme/blob/Brackets/Brackets/examples/brackets-tomorrow-night-blue.png)
 
 ## Tomorrow Night Bright
-![Brackets Tomorrow Night Bright](examples/brackets-tomorrow-night-bright.png)
+![Brackets Tomorrow Night Bright](https://github.com/ryanstewart/tomorrow-theme/blob/Brackets/Brackets/examples/brackets-tomorrow-night-bright.png)
