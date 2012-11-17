@@ -1,0 +1,283 @@
+<UserSettings>
+	<ApplicationIdentity version="10.0"/>
+	<ToolsOptions>
+		<ToolsOptionsCategory name="Environment" RegisteredName="Environment"/>
+	</ToolsOptions>
+	<Category name="Environment_Group" RegisteredName="Environment_Group">
+		<Category name="Environment_FontsAndColors" Category="{1EDA5DD4-927A-43a7-810E-7FD247D0DA1D}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_FontsAndColors" PackageName="Visual Studio Environment Package">
+			<PropertyValue name="Version">2</PropertyValue>
+			<FontsAndColors Version="2.0">
+				<Categories>
+					<Category GUID="{00CCEE86-3140-4E06-A65A-A92665A40D6F}" FontName="Consolas" FontSize="10" CharSet="0" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{358463D0-D084-400F-997E-A34FC570BC72}" FontName="Segoe UI" FontSize="10" CharSet="1" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{4330EBB5-2F04-4E03-8414-69F6035087E0}" FontName="Segoe UI" FontSize="10" CharSet="0" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{4C889E8A-2BBB-4DC8-AE21-B1E4799D7631}" FontName="Segoe UI" FontSize="10" CharSet="238" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{53371A83-C565-4995-817A-166FFF2DF0D3}" FontName="Segoe UI" FontSize="10" CharSet="1" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{5B50CEC1-B3AB-4CC3-BE1E-44AF4A07B2AF}" FontName="Segoe UI" FontSize="10" CharSet="238" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{5C48B2CB-0366-4FBF-9786-0BB37E945687}" FontName="Consolas" FontSize="10" CharSet="0" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{6BB65C5A-2F31-4BDE-9F48-8A38DC0C63E7}" FontName="Consolas" FontSize="10" CharSet="0" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{8259ACED-490A-41B3-A0FB-64C842CCDC80}" FontName="Segoe UI" FontSize="10" CharSet="1" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{90A03679-39CF-450F-A9E9-91DAADF17F38}" FontName="Consolas" FontSize="10" CharSet="0" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{9973EFDF-317D-431C-8BC1-5E88CBFD4F7F}" FontName="Consolas" FontSize="10" CharSet="0" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{A27B4E24-A735-4D1D-B8E7-9716E1E3D8E0}" FontIsDefault="Yes">
+						<Items>
+							<Item Name="Plain Text" Foreground="0x00C6C8C5" Background="0x00211F1D" BoldFont="No"/>
+							<Item Name="Selected Text" Foreground="0x00FFFFFF" Background="0x006E3400" BoldFont="No"/>
+							<Item Name="Inactive Selected Text" Foreground="0x02000000" Background="0x002E2A28" BoldFont="No"/>
+							<Item Name="Indicator Margin" Foreground="0x02000000" Background="0x00EAEAEA" BoldFont="No"/>
+							<Item Name="Line Numbers" Foreground="0x00969896" Background="0x00363B37" BoldFont="No"/>
+							<Item Name="Visible White Space" Foreground="0x00363B37" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Brace Matching (Highlight)" Foreground="0x006E3400" Background="0x02000000" BoldFont="Yes"/>
+							<Item Name="Brace Matching (Rectangle)" Foreground="0x02000000" Background="0x008E3F00" BoldFont="No"/>
+							<Item Name="Breakpoint (Disabled)" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Breakpoint - Advanced (Disabled)" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Breakpoint - Mapped (Disabled)" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Breakpoint - Selected" Foreground="0x00FF8080" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Call Return" Foreground="0x00EAEAEA" Background="0x00225E22" BoldFont="No"/>
+							<Item Name="Call return (IntelliTrace debugging)" Foreground="0x00EAEAEA" Background="0x0001307E" BoldFont="No"/>
+							<Item Name="Current Statement (historical mode)" Foreground="0x00EAEAEA" Background="0x00225E22" BoldFont="No"/>
+							<Item Name="Code Snippet Dependent Field" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Collapsible Text" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="outlining.collapsehintadornment" Foreground="0x00C6C8C5" Background="0x00211F1D" BoldFont="No"/>
+							<Item Name="Comment" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Compiler Error" Foreground="0x00FF8080" Background="0x02000000" BoldFont="No"/>
+							<Item Name="CSS Comment" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="CSS Extension Directive" Foreground="0x00BB94B2" Background="0x02000000" BoldFont="No"/>
+							<Item Name="CSS Extension Embedded Script" Foreground="0x00BB94B2" Background="0x02000000" BoldFont="No"/>
+							<Item Name="CSS Extension Variable Declaration" Foreground="0x00C6C8C5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="CSS Extension Variable Reference" Foreground="0x00EAEAEA" Background="0x02000000" BoldFont="No"/>
+							<Item Name="CSS Keyword" Foreground="0x00BB94B2" Background="0x02000000" BoldFont="No"/>
+							<Item Name="CSS Property Name" Foreground="0x00B7BE8A" Background="0x02000000" BoldFont="No"/>
+							<Item Name="CSS Property Value" Foreground="0x00BEA281" Background="0x02000000" BoldFont="No"/>
+							<Item Name="CSS Selector" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
+							<Item Name="CSS String Value" Foreground="0x0068BDB5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Current List Location" Foreground="0x00EAEAEA" Background="0x00804000" BoldFont="No"/>
+							<Item Name="Current Statement" Foreground="0x00EAEAEA" Background="0x00007380" BoldFont="No"/>
+							<Item Name="Call return (historical mode)" Foreground="0x00EAEAEA" Background="0x0001307E" BoldFont="No"/>
+							<Item Name="Executing Thread IP" Foreground="0x00EAEAEA" Background="0x00007380" BoldFont="No"/>
+							<Item Name="Definition Window Background" Foreground="0x01000002" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Definition Window Current Match" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
+							<Item Name="FileLineClassificationFormat" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="SourceLineClassificationFormat" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
+							<Item Name="SymbolLineClassificationFormat" Foreground="0x00C08080" Background="0x02000000" BoldFont="No"/>
+							<Item Name="InstructionLineClassificationFormat" Foreground="0x00C6C8C5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Error" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Error Message" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Excluded Code" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="MarkerFormatDefinition/FindHighlightFormatting" Foreground="0x02000000" Background="0x0000FFFF" BoldFont="No"/>
+							<Item Name="MarkerFormatDefinition/HighlightedReference" Foreground="0x00EAEAEA" Background="0x00512400" BoldFont="No"/>
+							<Item Name="HTML Attribute" Foreground="0x006666CC" Background="0x02000000" BoldFont="No"/>
+							<Item Name="HTML Attribute Value" Foreground="0x0068BDB5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="HTML Comment" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="HTML Element Name" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
+							<Item Name="HTML Entity" Foreground="0x00BEA281" Background="0x02000000" BoldFont="No"/>
+							<Item Name="HTML Operator" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="HTML Server-Side Script" Foreground="0x00BB94B2" Background="0x00512400" BoldFont="No"/>
+							<Item Name="HTML Tag Delimiter" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Javascript XML Documentation Comment" Foreground="0x00C6C8C5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Keyword" Foreground="0x00BB94B2" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Literal" Foreground="0x00BEA281" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Memory Address" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Memory Changed" Foreground="0x006666CC" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Memory Data" Foreground="0x00C6C8C5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Memory Unreadable" Foreground="0x00211F1D" Background="0x00C6C8C5" BoldFont="No"/>
+							<Item Name="Number" Foreground="0x00BEA281" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Operator" Foreground="0x00EAEAEA" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Other Error" Foreground="0x00FF80FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="outlining.square" Foreground="0x00C6C8C5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="outlining.verticalrule" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Preprocessor Keyword" Foreground="0x00BB94B2" Background="0x02000000" BoldFont="Yes"/>
+							<Item Name="Razor Code" Foreground="0x02000000" Background="0x00512400" BoldFont="No"/>
+							<Item Name="Read-Only Region" Foreground="0x01000002" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Refactoring Background" Foreground="0x01000002" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Refactoring Dependent Field" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Register Data" Foreground="0x00C6C8C5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Register Data Changed" Foreground="0x004040FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Register NAT" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper ASP.NET MVC Action" Foreground="0x00B7BE8A" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper ASP.NET MVC Area" Foreground="0x005F93DE" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper ASP.NET MVC Controller" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper ASP.NET MVC View" Foreground="0x0068BDB5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper ASP.NET RunAt attribute" Foreground="0x00BB94B2" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Brace Outline" Foreground="0x008E3F00" Background="0x006E3400" BoldFont="No"/>
+							<Item Name="ReSharper Class Identifier" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Constant Identifier" Foreground="0x006666CC" Background="0x02000000" BoldFont="Yes"/>
+							<Item Name="ReSharper CSS class selector" Foreground="0x005F93DE" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper CSS id selector" Foreground="0x006666CC" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper CSS keyword" Foreground="0x00BB94B2" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Current Line Highlight" Foreground="0x02000000" Background="0x00363B37" BoldFont="No"/>
+							<Item Name="ReSharper Dead Code" Foreground="0x00969896" Background="0x00211F1D" BoldFont="No"/>
+							<Item Name="ReSharper Delegate Identifier" Foreground="0x006666CC" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Enum Identifier" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Event Identifier" Foreground="0x005F93DE" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Extension Method Identifier" Foreground="0x00B7BE8A" Background="0x02000000" BoldFont="Yes"/>
+							<Item Name="ReSharper Field Identifier" Foreground="0x006666CC" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Format String Item" Foreground="0x00B7BE8A" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper HTML Entity" Foreground="0x00BEA281" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper HTML ID attribute" Foreground="0x00EAEAEA" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Hyperlink" Foreground="0x00BB94B2" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Interface Identifier" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Late Bound Identifier" Foreground="0x00EAEAEA" Background="0x02000000" BoldFont="Yes"/>
+							<Item Name="ReSharper LiveTemplates Current HotSpot" Foreground="0x004040FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper LiveTemplates Current HotSpot mirror" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Local Variable Identifier" Foreground="0x00EAEAEA" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Matched Brace" Foreground="0x006E3400" Background="0x008E3F00" BoldFont="No"/>
+							<Item Name="ReSharper Matched Format String Item" Foreground="0x02000000" Background="0x008E3F00" BoldFont="No"/>
+							<Item Name="ReSharper Method Identifier" Foreground="0x00B7BE8A" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Mutable Local Variable Identifier" Foreground="0x00EAEAEA" Background="0x02000000" BoldFont="Yes"/>
+							<Item Name="ReSharper Name or Signature Changed" Foreground="0x00C6C8C5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Namespace Identifier" Foreground="0x005F93DE" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Non-Private Unused Members" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Operator Identifier" Foreground="0x00EAEAEA" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Parameter Identifier" Foreground="0x00EAEAEA" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Static Class Identifier" Foreground="0x006666CC" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Struct Identifier" Foreground="0x006666CC" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Template Editor Template Keyword" Foreground="0x00BB94B2" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Todo Item" Foreground="0x00B78572" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Type Parameter Identifier" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="Yes"/>
+							<Item Name="ReSharper Unmatched Brace" Foreground="0x02000000" Background="0x00000080" BoldFont="No"/>
+							<Item Name="ReSharper Warning" Foreground="0x00FF8080" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Script Comment" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Script Function Block Start" Foreground="0x00C6C8C5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Script Identifier" Foreground="0x00EAEAEA" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Script Keyword" Foreground="0x00BB94B2" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Script Number" Foreground="0x00BEA281" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Script Operator" Foreground="0x00EAEAEA" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Script String" Foreground="0x0068BDB5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Smart Tag" Foreground="0x00C08080" Background="0x02000000" BoldFont="No"/>
+							<Item Name="SQL DML Marker" Foreground="0x00FF8080" Background="0x02000000" BoldFont="No"/>
+							<Item Name="SQL Operator" Foreground="0x00EAEAEA" Background="0x02000000" BoldFont="No"/>
+							<Item Name="SQL Stored Procedure" Foreground="0x00B7BE8A" Background="0x02000000" BoldFont="No"/>
+							<Item Name="SQL String" Foreground="0x0068BDB5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="SQL System Function" Foreground="0x00BB94B2" Background="0x02000000" BoldFont="No"/>
+							<Item Name="SQL System Table" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Stale Code" Foreground="0x00C080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="String" Foreground="0x0068BDB5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="String(C# @ Verbatim)" Foreground="0x0068BDB5" Background="0x02000000" BoldFont="Yes"/>
+							<Item Name="SymbolDefinitionClassificationFormat" Foreground="0x00BEA281" Background="0x02000000" BoldFont="No"/>
+							<Item Name="SymbolReferenceClassificationFormat" Foreground="0x0068BDB5" Background="0x02000000" BoldFont="Yes"/>
+							<Item Name="Syntax Error" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Task List Shortcut" Foreground="0x02000000" Background="0x00804000" BoldFont="No"/>
+							<Item Name="Template Parameter" Foreground="0x00808000" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Text" Foreground="0x00C6C8C5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Tracepoint (Disabled)" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Tracepoint (Enabled)" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Tracepoint (Error)" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Tracepoint (Warning)" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Tracepoint - Advanced (Disabled)" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Tracepoint - Advanced (Enabled)" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Tracepoint - Advanced (Error)" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Tracepoint - Advanced (Warning)" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Tracepoint - Mapped (Disabled)" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Tracepoint - Mapped (Enabled)" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Tracepoint - Mapped (Error)" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Tracepoint - Mapped (Warning)" Foreground="0x008080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="urlformat" Foreground="0x00BEA281" Background="0x02000000" BoldFont="No"/>
+							<Item Name="User Types" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
+							<Item Name="User Types(Delegates)" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
+							<Item Name="User Types(Enums)" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
+							<Item Name="User Types(Interfaces)" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
+							<Item Name="User Types(Type parameters)" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="Yes"/>
+							<Item Name="User Types(Value types)" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
+							<Item Name="VBExcludedCodeClassificationFormat" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="VB Line Separator" Foreground="0x00C6C8C5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="VBUserTypeClassificationFormat" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XmlDocAttributeClassificationFormat" Foreground="0x006666CC" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XmlAttributeNameClassificationFormat" Foreground="0x006666CC" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XmlAttributeQuotesClassificationFormat" Foreground="0x0068BDB5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XmlAttributeValueClassificationFormat" Foreground="0x0068BDB5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XmlCDataSectionClassificationFormat" Foreground="0x00C6C8C5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XmlCommentClassificationFormat" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XmlDocCommentClassificationFormat" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XmlDelimiterClassificationFormat" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XmlDocTagClassificationFormat" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XmlNameClassificationFormat" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XmlProcessingInstructionClassificationFormat" Foreground="0x00EAEAEA" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XmlTextClassificationFormat" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Warning" Foreground="0x000080FF" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XAML Attribute" Foreground="0x006666CC" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XAML Attribute Quotes" Foreground="0x0068BDB5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XAML Attribute Value" Foreground="0x0068BDB5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XAML CData Section" Foreground="0x00EAEAEA" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XAML Comment" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XAML Delimiter" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XAML Keyword" Foreground="0x00BB94B2" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XAML Markup Extension Class" Foreground="0x00BB94B2" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XAML Markup Extension Parameter Name" Foreground="0x00B7BE8A" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XAML Markup Extension Parameter Value" Foreground="0x00BEA281" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XAML Name" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XAML Processing Instruction" Foreground="0x00EAEAEA" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XAML Text" Foreground="0x00C6C8C5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XML Attribute" Foreground="0x006666CC" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XML Attribute Quotes" Foreground="0x0068BDB5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XML Attribute Value" Foreground="0x0068BDB5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XML CData Section" Foreground="0x00EAEAEA" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XML Comment" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XML Delimiter" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XML Doc Attribute" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XML Doc Comment" Foreground="0x00C6C8C5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XML Doc Tag" Foreground="0x00969896" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XML Keyword" Foreground="0x00BB94B2" Background="0x00271824" BoldFont="No"/>
+							<Item Name="XML Name" Foreground="0x0074C6F0" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XML Processing Instruction" Foreground="0x00EAEAEA" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XML Text" Foreground="0x00C6C8C5" Background="0x02000000" BoldFont="No"/>
+							<Item Name="XSLT Keyword" Foreground="0x00BB94B2" Background="0x02000000" BoldFont="No"/>
+						</Items>
+					</Category>
+					<Category GUID="{A7EE6BEE-D0AA-4B2F-AD9D-748276A725F6}" FontName="Segoe UI" FontSize="10" CharSet="1" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{A9A5637F-B2A8-422E-8FB5-DFB4625F0111}" FontName="Segoe UI" FontSize="10" CharSet="1" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{AD3737CA-26A1-47CB-A143-0EB0ECBC7FC9}" FontName="Consolas" FontSize="10" CharSet="1" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{B20C0001-0836-4535-A5E8-96E595B1F094}" FontName="Segoe UI" FontSize="10" CharSet="0" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{BB8FE807-A186-404A-81FA-D20B908CA93B}" FontName="Segoe UI" FontSize="10" CharSet="1" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{C1614BB1-734F-4A31-BD42-5AE6275E16D2}" FontName="Segoe UI" FontSize="10" CharSet="1" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{E6784B78-8552-41D7-9630-D1FDEE0DD8E2}" FontName="Segoe UI" FontSize="9" CharSet="1" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{EE1BE240-4E81-4BEB-8EEA-54322B6B1BF5}" FontName="Consolas" FontSize="10" CharSet="0" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{F7B7B222-E186-48DF-A5EE-174E8129891B}" FontName="Segoe UI" FontSize="10" CharSet="1" FontIsDefault="No">
+						<Items/>
+					</Category>
+					<Category GUID="{FD2219AF-EBF8-4116-A801-3B503C48DFF0}" FontName="Segoe UI" FontSize="10" CharSet="1" FontIsDefault="No">
+						<Items/>
+					</Category>
+				</Categories>
+			</FontsAndColors>
+		</Category>
+	</Category>
+</UserSettings>

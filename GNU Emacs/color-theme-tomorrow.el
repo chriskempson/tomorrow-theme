@@ -1,14 +1,96 @@
-;; Tomorrow Theme
+;;; color-theme-tomorrow.el --- GNU Emacs port of the Tomorrow Theme.
+
+;;; Commentary:
+;;
+;;; Tomorrow Theme
 ;;
 ;; Originally by Chris Kempson https://github.com/ChrisKempson/Tomorrow-Theme
 ;; Ported to GNU Emacs by Chris Charles
 
 (require 'color-theme)
 
-(defun color-theme-tomorrow-real (background current-line
-selection foreground comment red orange yellow green aqua blue
-purple cursor)
-  "GNU Emacs port of Chris Kempson's Tomorrow theme. Port by Chris Charles."
+;;; Code:
+
+(defun color-theme-tomorrow-real (&optional variant)
+  "Enable the appropriate Tomorrow theme based on VARIANT.
+
+VARIANT can be 'night, 'night-eighties, 'night-blue or
+'night-bright.  If VARIANT is not present, the light Tomorrow
+theme will be used."
+
+  (let ((background "#ffffff")
+        (current-line "#e9efff")
+        (selection "#d6d6d6")
+        (foreground "#4d4d4c")
+        (comment "#8e908c")
+        (cursor "#aeafad")
+        (red "#c82829")
+        (orange "#f5871f")
+        (yellow "#eab700")
+        (green "#718c00")
+        (aqua "#3e999f")
+        (blue "#4271ae")
+        (purple "#8959a8"))
+
+    (cond ((eq variant 'night)
+           (setq background "#1d1f21"
+                 current-line "#282a2e"
+                 selection "#373b41"
+                 foreground "#c5c8c6"
+                 comment "#969896"
+                 cursor "#aeafad"
+                 red "#cc6666"
+                 orange "#de935f"
+                 yellow "#f0c674"
+                 green "#b5bd68"
+                 aqua "#8abeb7"
+                 blue "#81a2be"
+                 purple "#b294bb"))
+
+          ((eq variant 'night-eighties)
+           (setq background "#2d2d2d"
+                 current-line "#393939"
+                 selection "#515151"
+                 foreground "#cccccc"
+                 comment "#999999"
+                 cursor "#cccccc"
+                 red "#f2777a"
+                 orange "#f99157"
+                 yellow "#ffcc66"
+                 green "#99cc99"
+                 aqua "#66cccc"
+                 blue "#6699cc"
+                 purple "#cc99cc"))
+
+          ((eq variant 'night-blue)
+           (setq background "#002451"
+                 current-line "#00346e"
+                 selection "#003f8e"
+                 foreground "#ffffff"
+                 comment "#7285b7"
+                 cursor "#ffffff"
+                 red "#ff9da4"
+                 orange "#ffc58f"
+                 yellow "#ffeead"
+                 green "#d1f1a9"
+                 aqua "#99ffff"
+                 blue "#bbdaff"
+                 purple "#ebbbff"))
+
+          ((eq variant 'night-bright)
+           (setq background "#000000"
+                 current-line "#2a2a2a"
+                 selection "#424242"
+                 foreground "#eaeaea"
+                 comment "#969896"
+                 cursor "#9f9f9f"
+                 red "#d54e53"
+                 orange "#e78c45"
+                 yellow "#e7c547"
+                 green "#b9ca4a"
+                 aqua "#70c0b1"
+                 blue "#7aa6da"
+                 purple "#c397d8")))
 
     (color-theme-install
      `(color-theme-tomorrow-real
@@ -20,20 +102,32 @@ purple cursor)
 
        ;; Built-in stuff (Emacs 23)
        (default ((t (:background ,background :foreground ,foreground))))
+       (error ((t (:foreground ,red))))
+       (escape-glyph ((t (:foreground ,aqua))))
        (fringe ((t (:background ,current-line))))
+       (highlight ((t (:background ,green :foreground ,current-line))))
+       (link ((t (:foreground ,blue))))
+       (link-visited ((t (:foreground ,purple))))
        (minibuffer-prompt ((t (:foreground ,blue))))
-       (mode-line ((t (:background ,current-line :foreground ,foreground))))
+       (mode-line ((t (:background ,selection :foreground ,foreground))))
+       (mode-line-inactive ((t (:background ,current-line :foreground ,foreground))))
        (region ((t (:background ,selection))))
+       (secondary-selection ((t (:background ,blue))))
+       (shadow ((t (:foreground ,comment))))
+       (success ((t (:foreground ,green))))
+       (trailing-whitespace ((t (:background ,red))))
+       (warning ((t (:foreground ,orange))))
 
        ;; Font-lock stuff
+       (font-lock-builtin-face ((t (:foreground ,aqua))))
        (font-lock-comment-face ((t (:foreground ,comment))))
-       (font-lock-constant-face ((t (:foreground ,green))))
+       (font-lock-constant-face ((t (:foreground ,aqua))))
        (font-lock-doc-string-face ((t (:foreground ,comment))))
        (font-lock-function-name-face ((t (:foreground ,blue))))
        (font-lock-keyword-face ((t (:foreground ,purple))))
        (font-lock-string-face ((t (:foreground ,green))))
        (font-lock-type-face ((t (:foreground ,yellow))))
-       (font-lock-variable-name-face ((t (:foreground ,red))))
+       (font-lock-variable-name-face ((t (:foreground ,orange))))
        (font-lock-warning-face ((t (:foreground ,red))))
 
        ;; hl-line-mode
@@ -51,46 +145,75 @@ purple cursor)
 
        ;; show-paren-mode
        (show-paren-match-face ((t (:background ,blue :foreground ,current-line))))
-       (show-paren-mismatch-face ((t (:background ,orange :foreground ,current-line)))))))
+       (show-paren-mismatch-face ((t (:background ,orange :foreground ,current-line))))
+
+       ;; whitespace-mode
+       (whitespace-empty ((t (:background ,yellow :foreground ,red))))
+       (whitespace-hspace ((t (:background ,selection :foreground ,comment))))
+       (whitespace-indentation ((t (:background ,yellow :foreground ,red))))
+       (whitespace-line ((t (:background ,current-line :foreground ,purple))))
+       (whitespace-newline ((t (:foreground ,comment))))
+       (whitespace-space ((t (:background ,current-line :foreground ,comment))))
+       (whitespace-space-after-tab ((t (:background ,yellow :foreground ,red))))
+       (whitespace-space-before-tab ((t (:background ,orange :foreground ,red))))
+       (whitespace-tab ((t (:background ,selection :foreground ,comment))))
+       (whitespace-trailing ((t (:background ,red :foreground ,yellow))))
+
+       ;; rainbow-delimiters
+       (rainbow-delimiters-depth-1-face ((t (:foreground ,purple))))
+       (rainbow-delimiters-depth-2-face ((t (:foreground ,blue))))
+       (rainbow-delimiters-depth-3-face ((t (:foreground ,aqua))))
+       (rainbow-delimiters-depth-4-face ((t (:foreground ,green))))
+       (rainbow-delimiters-depth-5-face ((t (:foreground ,yellow))))
+       (rainbow-delimiters-depth-6-face ((t (:foreground ,orange))))
+       (rainbow-delimiters-depth-7-face ((t (:foreground ,red))))
+       (rainbow-delimiters-depth-8-face ((t (:foreground ,comment))))
+       (rainbow-delimiters-depth-9-face ((t (:foreground ,foreground))))
+
+       ;; auctex
+       (font-latex-bold-face ((t (:foreground ,green))))
+       (font-latex-doctex-documentation-face ((t (:background ,current-line))))
+       (font-latex-italic-face ((t (:foreground ,green))))
+       (font-latex-math-face ((t (:foreground ,orange))))
+       (font-latex-sectioning-0-face ((t (:foreground ,yellow))))
+       (font-latex-sectioning-1-face ((t (:foreground ,yellow))))
+       (font-latex-sectioning-2-face ((t (:foreground ,yellow))))
+       (font-latex-sectioning-3-face ((t (:foreground ,yellow))))
+       (font-latex-sectioning-4-face ((t (:foreground ,yellow))))
+       (font-latex-sectioning-5-face ((t (:foreground ,yellow))))
+       (font-latex-sedate-face ((t (:foreground ,aqua))))
+       (font-latex-string-face ((t (:foreground ,yellow))))
+       (font-latex-verbatim-face ((t (:foreground ,orange))))
+       (font-latex-warning-face ((t (:foreground ,red))))))))
 
 (defun color-theme-tomorrow ()
   "Base light Tomorrow theme."
   (interactive)
-  (color-theme-tomorrow-real "#ffffff" "#e9efff" "#c5cce9" "#4d4d4c" "#8e908c"
-                             "#c82829" "#f5871f" "#eab700" "#718c00" "#3e999f"
-                             "#4271ae" "#8959a8" "#aeafad"))
+  (color-theme-tomorrow-real))
 (provide 'color-theme-tomorrow)
 
 (defun color-theme-tomorrow-night ()
   "Dark Tomorrow theme."
   (interactive)
-  (color-theme-tomorrow-real "#1d1f21" "#282a2e" "#373b41" "#c5c8c6" "#969896"
-                             "#cc6666" "#de935f" "#f0c674" "#b5bd68" "#8abeb7"
-                             "#81a2be" "#b294bb" "#aeafad"))
+  (color-theme-tomorrow-real 'night))
 (provide 'color-theme-tomorrow-night)
 
 (defun color-theme-tomorrow-night-eighties ()
   "Somewhat lighter dark Tomorrow theme."
   (interactive)
-  (color-theme-tomorrow-real "#2d2d2d" "#393939" "#515151" "#cccccc" "#999999"
-                             "#f2777a" "#f99157" "#ffcc66" "#99cc99" "#009999"
-                             "#99cccc" "#cc99cc" "#cccccc"))
+  (color-theme-tomorrow-real 'night-eighties))
 (provide 'color-theme-tomorrow-night-eighties)
 
 (defun color-theme-tomorrow-night-blue ()
   "Dark Tomorrow theme with a blue background."
   (interactive)
-  (color-theme-tomorrow-real "#002451" "#00346e" "#003f8e" "#ffffff" "#7285b7"
-                             "#ff9da4" "#ffc58f" "#ffeead" "#d1f1a9" "#99ffff"
-                             "#bbdaff" "#ebbbff" "#ffffff"))
+  (color-theme-tomorrow-real 'night-blue))
 (provide 'color-theme-tomorrow-night-blue)
 
 (defun color-theme-tomorrow-night-bright ()
   "Dark Tomorrow theme with a brighter, higher-contrast look."
   (interactive)
-  (color-theme-tomorrow-real "#000000" "#2a2a2a" "#424242" "#dedede" "#969896"
-                             "#d54e53" "#e78c45" "#e7c547" "#b9ca4a" "#70c0b1"
-                             "#7aa6da" "#c397d8" "#9f9f9f"))
+  (color-theme-tomorrow-real 'night-bright))
 (provide 'color-theme-tomorrow-night-bright)
 
 
@@ -109,3 +232,5 @@ purple cursor)
 (add-to-list 'color-themes
              '(color-theme-tomorrow-night-bright
                "Tomorrow Night Bright" "Chris Kempson (ported by Chris Charles)"))
+
+;;; color-theme-tomorrow.el ends here

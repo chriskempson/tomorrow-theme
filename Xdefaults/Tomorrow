@@ -1,0 +1,38 @@
+!-- Tomorrow Color Scheme
+
+! Names of the original color are in parenthesis.
+
+! With the exception of DarkYellow (which is Orange) and Yellow
+! (which is Yellow), bright colors were derived by simply upping the 'value'
+! of each color by 22.  This number was derived from maxing out the value on
+! Red.
+
+*foreground:   #4d4d4c
+*background:   #fafafa
+! CursorColor (Selection)
+*cursorColor:  #d6d6d6
+
+! Black + Grey (Comment)
+*color0:       #000000
+*color8:       #8e908c
+! Red + Bright Red
+*color1:       #c82829
+*color9:       #ff3334
+! Green + Bright Green
+*color2:       #718c00
+*color10:      #9ec400
+! Yellow (Orange) + Bright Yellow (Yellow)
+*color3:       #f5871f
+*color11:      #eab700
+! Blue + Bright Blue
+*color4:       #4271ae
+*color12:      #5795e6
+! Magenta (Purple) + Bright Magenta
+*color5:       #8959a8
+*color13:      #b777e0
+! Cyan (Aqua) + Bright Cyan
+*color6:       #3e999f
+*color14:      #54ced6
+! Light Grey (Selection) + White (Current Line)
+*color7:       #d6d6d6
+*color15:      #efefef
