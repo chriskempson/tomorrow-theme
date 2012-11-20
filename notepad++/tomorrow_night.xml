@@ -720,6 +720,19 @@ Credits:
             <WordsStyle name="STRING VARIABLE" styleID="13" fgColor="B5BD68" bgColor="1D1F21" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="NUMBER" styleID="14" fgColor="CC6666" bgColor="1D1F21" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+        <LexerType name="r" desc="R" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="C5C8C6" bgColor="1D1F21" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SELECTED LINE" styleID="6" fgColor="373B41" bgColor="1D1F21" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="969896" bgColor="1D1F21" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="2" fgColor="CC6666" bgColor="2A211C" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="BASE WORD" styleID="3" fgColor="DE935F" bgColor="1D1F21" fontName="" fontStyle="0" fontSize="" keywordClass="instre2">if else for while</WordsStyle>
+            <WordsStyle name="KEYWORD" styleID="4" fgColor="F0C674" bgColor="1D1F21" fontName="" fontStyle="0" fontSize="" keywordClass="type1">if else for while</WordsStyle>
+            <WordsStyle name="NUMBER" styleID="5" fgColor="B5BD68" bgColor="1D1F21" fontName="" fontStyle="0" fontSize="">if else for while</WordsStyle>
+            <WordsStyle name="STRING" styleID="6" fgColor="8ABEB7" bgColor="1D1F21" fontName="" fontStyle="0" fontSize="">bool long int char</WordsStyle>
+            <WordsStyle name="STRING2" styleID="7" fgColor="55E439" bgColor="1D1F21" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="8" fgColor="81A2BE" bgColor="1D1F21" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="INFIX" styleID="10" fgColor="B294BB" bgColor="1D1F21" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
         <LexerType name="searchResult" desc="Search result" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="C5C8C6" bgColor="1D1F21" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="SELECTED LINE" styleID="6" fgColor="D5D8D6" bgColor="282A2E" fontName="" fontStyle="0" fontSize="" />
