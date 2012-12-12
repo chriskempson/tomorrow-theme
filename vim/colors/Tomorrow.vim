@@ -5,7 +5,7 @@
 
 " Default GUI Colours
 let s:foreground = "4d4d4c"
-let s:background = "fafafafa"
+let s:background = "fafafa"
 let s:selection = "d6d6d6"
 let s:line = "efefef"
 let s:comment = "8e908c"
@@ -323,6 +323,12 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("javaScriptRepeat", s:purple, "", "")
 	call <SID>X("javaScriptNumber", s:orange, "", "")
 	call <SID>X("javaScriptMember", s:orange, "", "")
+
+	" HTML Highlighting
+	call <SID>X("htmlTag", s:red, "", "")
+	call <SID>X("htmlTagName", s:red, "", "")
+	call <SID>X("htmlArg", s:red, "", "")
+	call <SID>X("htmlScriptTag", s:red, "", "")
 
 	" Diff Highlighting
 	call <SID>X("diffAdded", s:green, "", "")
