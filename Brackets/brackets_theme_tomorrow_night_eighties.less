@@ -46,8 +46,6 @@
 @blue: #6699cc;
 @purple: #cc99cc;
 
-
-
 /* 
  * Background colors are ordered from least "intense" to most "intense"
  * So, if the background is light, then @background-color-3 should be
@@ -104,11 +102,11 @@
 /* inline editor colors */
 @inline-background-color-1: lighten(@background, @bc-color-step-size);
 @inline-background-color-2: lighten(@background, @bc-color-step-size*2);
-@inline-background-color-3: lighten(@background, @bc-color-step-size*3);
+@inline-background-color-3: rgba(0,0,0,0);
 
 @inline-color-1: darken(@foreground, @bc-color-step-size*2);
 @inline-color-2: darken(@foreground, @bc-color-step-size);
-@inline-color-3: @foreground;
+@inline-color-3: @background;
 
 /* Code font formatting
  *
