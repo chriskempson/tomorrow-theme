@@ -355,6 +355,9 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("goStatement", s:purple, "", "")
 	call <SID>X("goConditional", s:purple, "", "")
 	call <SID>X("goConstants", s:orange, "", "")
+	call <SID>X("goTodo", s:yellow, "", "")
+	call <SID>X("goDeclType", s:blue, "", "")
+	call <SID>X("goBuiltins", s:purple, "", "")
 
 	" Delete Functions
 	delf <SID>X
