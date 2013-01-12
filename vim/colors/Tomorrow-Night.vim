@@ -356,6 +356,13 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("cucumberGiven", s:blue, "", "")
 	call <SID>X("cucumberGivenAnd", s:blue, "", "")
 
+	" Go Highlighting
+	call <SID>X("goDirective", s:purple, "", "")
+	call <SID>X("goDeclaration", s:purple, "", "")
+	call <SID>X("goStatement", s:purple, "", "")
+	call <SID>X("goConditional", s:purple, "", "")
+	call <SID>X("goConstants", s:orange, "", "")
+
 	" Delete Functions
 	delf <SID>X
 	delf <SID>rgb
