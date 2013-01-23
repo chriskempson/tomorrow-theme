@@ -35,7 +35,7 @@
    `(error ((t (:foreground ,red))))
    `(escape-glyph ((t (:foreground ,aqua))))
    `(fringe ((t (:background ,current-line))))
-   `(highlight ((t (:background ,green :foreground ,current-line))))
+   `(highlight ((t (:background ,current-line))))
    `(link ((t (:foreground ,blue))))
    `(link-visited ((t (:foreground ,purple))))
    `(minibuffer-prompt ((t (:foreground ,blue))))
@@ -98,7 +98,22 @@
    `(rainbow-delimiters-depth-6-face ((t (:foreground ,orange))))
    `(rainbow-delimiters-depth-7-face ((t (:foreground ,red))))
    `(rainbow-delimiters-depth-8-face ((t (:foreground ,comment))))
-   `(rainbow-delimiters-depth-9-face ((t (:foreground ,foreground)))))
+   `(rainbow-delimiters-depth-9-face ((t (:foreground ,foreground))))
+
+   ;; diff
+   `(diff-added ((t (:foreground ,green))))
+   `(diff-changed ((t (:foreground ,yellow))))
+   `(diff-removed ((t (:foreground ,red))))
+   `(diff-header ((t (:background ,current-line))))
+   `(diff-file-header ((t (:background ,selection))))
+   `(diff-hunk-header ((t (:background ,current-line :foreground ,blue))))
+
+   ;; magit
+   `(magit-section-title ((t (:inherit diff-hunk-header))))
+   `(magit-log-graph ((t (:foreground ,comment))))
+   `(magit-log-sha1 ((t (:foreground ,purple))))
+   `(magit-log-head-label-local ((t (:foreground ,blue))))
+   `(magit-log-head-label-remote ((t (:foreground ,green)))))
 
   (custom-theme-set-variables
    'tomorrow
