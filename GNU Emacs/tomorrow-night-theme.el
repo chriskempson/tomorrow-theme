@@ -116,7 +116,12 @@
    `(font-latex-verbatim-face ((t (:foreground ,orange))))
    `(font-latex-warning-face ((t (:foreground ,red))))
 
-   ;; diff
+   ;; ido-mode
+   `(ido-first-match ((t (:foreground ,orange :weight bold))))
+   `(ido-only-match ((t (:foreground ,red :weight bold))))
+   `(ido-subdir ((t (:foreground ,comment))))
+
+   ;; diff-mode
    `(diff-added ((t (:foreground ,green))))
    `(diff-changed ((t (:foreground ,yellow))))
    `(diff-removed ((t (:foreground ,red))))
@@ -124,7 +129,7 @@
    `(diff-file-header ((t (:background ,selection))))
    `(diff-hunk-header ((t (:background ,current-line :foreground ,blue))))
 
-   ;; magit
+   ;; magit-mode
    `(magit-section-title ((t (:inherit diff-hunk-header))))
    `(magit-log-graph ((t (:foreground ,comment))))
    `(magit-log-sha1 ((t (:foreground ,purple))))

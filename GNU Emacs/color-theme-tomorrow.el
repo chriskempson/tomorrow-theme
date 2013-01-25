@@ -186,6 +186,11 @@ theme will be used."
        (font-latex-verbatim-face ((t (:foreground ,orange))))
        (font-latex-warning-face ((t (:foreground ,red))))
 
+       ;; ido-mode
+       (ido-first-match ((t (:foreground ,orange :weight bold))))
+       (ido-only-match ((t (:foreground ,red :weight bold))))
+       (ido-subdir ((t (:foreground ,comment))))
+
        ;; diff-mode
        (diff-added ((t (:foreground ,green))))
        (diff-changed ((t (:foreground ,yellow))))
