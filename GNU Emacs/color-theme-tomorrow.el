@@ -184,7 +184,22 @@ theme will be used."
        (font-latex-sedate-face ((t (:foreground ,aqua))))
        (font-latex-string-face ((t (:foreground ,yellow))))
        (font-latex-verbatim-face ((t (:foreground ,orange))))
-       (font-latex-warning-face ((t (:foreground ,red))))))))
+       (font-latex-warning-face ((t (:foreground ,red))))
+
+       ;; diff-mode
+       (diff-added ((t (:foreground ,green))))
+       (diff-changed ((t (:foreground ,yellow))))
+       (diff-removed ((t (:foreground ,red))))
+       (diff-header ((t (:background ,current-line))))
+       (diff-file-header ((t (:background ,selection))))
+       (diff-hunk-header ((t (:background ,current-line :foreground ,blue))))
+
+       ;; magit-mode
+       (magit-section-title ((t (:inherit diff-hunk-header))))
+       (magit-log-graph ((t (:foreground ,comment))))
+       (magit-log-sha1 ((t (:foreground ,purple))))
+       (magit-log-head-label-local ((t (:foreground ,blue))))
+       (magit-log-head-label-remote ((t (:foreground ,green))))))))
 
 (defun color-theme-tomorrow ()
   "Base light Tomorrow theme."
