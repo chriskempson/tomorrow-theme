@@ -323,6 +323,8 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("pythonInclude", s:purple, "", "")
 	call <SID>X("pythonStatement", s:purple, "", "")
 	call <SID>X("pythonConditional", s:purple, "", "")
+	call <SID>X("pythonRepeat", s:purple, "", "")
+	call <SID>X("pythonException", s:purple, "", "")
 	call <SID>X("pythonFunction", s:blue, "", "")
 
 	" JavaScript Highlighting
@@ -348,6 +350,14 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     call <SID>X("ShowMarksHLo", s:purple, s:background, "none")
     call <SID>X("ShowMarksHLu", s:yellow, s:background, "none")
     call <SID>X("ShowMarksHLm", s:aqua, s:background, "none")
+
+	" Lua Highlighting
+	call <SID>X("luaStatement", s:purple, "", "")
+	call <SID>X("luaRepeat", s:purple, "", "")
+	call <SID>X("luaCondStart", s:purple, "", "")
+	call <SID>X("luaCondElseif", s:purple, "", "")
+	call <SID>X("luaCond", s:purple, "", "")
+	call <SID>X("luaCondEnd", s:purple, "", "")
 
 	" Delete Functions
 	delf <SID>X
