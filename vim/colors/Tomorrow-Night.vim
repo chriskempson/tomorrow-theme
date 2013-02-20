@@ -324,6 +324,9 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("pythonStatement", s:purple, "", "")
 	call <SID>X("pythonConditional", s:purple, "", "")
 	call <SID>X("pythonFunction", s:blue, "", "")
+	call <SID>X("pythonPreCondit", s:purple, "", "")
+	call <SID>X("pythonRepeat", s:aqua, "", "")
+	call <SID>X("pythonExClass", s:orange, "", "")
 
 	" JavaScript Highlighting
 	call <SID>X("javaScriptBraces", s:foreground, "", "")
@@ -343,11 +346,25 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("diffAdded", s:green, "", "")
 	call <SID>X("diffRemoved", s:red, "", "")
 
-    " ShowMarks Highlighting
-    call <SID>X("ShowMarksHLl", s:orange, s:background, "none")
-    call <SID>X("ShowMarksHLo", s:purple, s:background, "none")
-    call <SID>X("ShowMarksHLu", s:yellow, s:background, "none")
-    call <SID>X("ShowMarksHLm", s:aqua, s:background, "none")
+	" ShowMarks Highlighting
+	call <SID>X("ShowMarksHLl", s:orange, s:background, "none")
+	call <SID>X("ShowMarksHLo", s:purple, s:background, "none")
+	call <SID>X("ShowMarksHLu", s:yellow, s:background, "none")
+	call <SID>X("ShowMarksHLm", s:aqua, s:background, "none")
+
+	" Cucumber Highlighting
+	call <SID>X("cucumberGiven", s:blue, "", "")
+	call <SID>X("cucumberGivenAnd", s:blue, "", "")
+
+	" Go Highlighting
+	call <SID>X("goDirective", s:purple, "", "")
+	call <SID>X("goDeclaration", s:purple, "", "")
+	call <SID>X("goStatement", s:purple, "", "")
+	call <SID>X("goConditional", s:purple, "", "")
+	call <SID>X("goConstants", s:orange, "", "")
+	call <SID>X("goTodo", s:yellow, "", "")
+	call <SID>X("goDeclType", s:blue, "", "")
+	call <SID>X("goBuiltins", s:purple, "", "")
 
 	" Delete Functions
 	delf <SID>X
