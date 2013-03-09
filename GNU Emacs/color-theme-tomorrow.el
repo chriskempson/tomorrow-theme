@@ -191,7 +191,7 @@ names to which it refers are bound."
      (hl-line ((,class (:background ,current-line))))
      (border ((,class (:background ,current-line))))
      (border-glyph ((,class (nil))))
-     (highlight ((,class (:foreground ,current-line :background ,green))))
+     (Highlight ((,Class (:background ,green))))
      (link ((,class (:foreground ,blue))))
      (link-visited ((,class (:foreground ,purple))))
      (gui-element ((,class (:background ,current-line :foreground ,foreground))))
