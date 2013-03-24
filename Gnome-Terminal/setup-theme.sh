@@ -2,7 +2,11 @@
 
 [[ -z "$PROFILE_NAME" ]] && PROFILE_NAME=Tomorrow
 [[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG=Tomorrow
-[[ -z "$GCONFTOOL" ]] && GCONFTOOL=gconftool
+if hash gconftool 2>/dev/null; then
+	[[ -z "$GCONFTOOL" ]] && GCONFTOOL=gconftool
+else
+	[[ -z "$GCONFTOOL" ]] && GCONFTOOL=gconftool-2
+fi
 [[ -z "$BASE_KEY" ]] && BASE_KEY=/apps/gnome-terminal/profiles
 
 PROFILE_KEY="$BASE_KEY/$PROFILE_SLUG"
