@@ -112,6 +112,9 @@
 @selection-color-focused: #585858;
 @selection-color-unfocused: #424242;
 
+/* background color of the line that has the cursor */
+@activeline-bgcolor: lighten(@background, 4);
+
 /* Code font formatting
  *
  * NOTE (JRB): In order to get the web font to load early enough, we have a div called "dummy-text" that
@@ -126,7 +129,7 @@
     // Sizing via em will cause the code and line numbers to misalign
     line-height: 15px;
     font-size: 12px;
-    font-family: 'SourceCodePro', monospace;
+    font-family: 'SourceCodePro', "ＭＳ ゴシック", "MS Gothic", monospace;
 }
 
 .code-font-win() {
