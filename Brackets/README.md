@@ -6,6 +6,24 @@ _**These will not work on versions of Brackets prior to sprint 20**_
 # Usage
 Take these files and drop them into your `styles` directory in the Brackets source code. Then change line 56 of `styles/brackets_shared.less` and replace `brackets_theme_default.less` to whichever version of the Tomorrow theme you want to use.
 
+_**In Brackets sprint 22 you need to change the file `styles/brackets_shared.less`**_
+
+from
+
+```
+// Themes can rely on variables defined above
+@import url(brackets_theme_default.less);
+```
+
+to
+
+```
+// Themes can rely on variables defined above
+@import url(brackets_theme_default.less);
+@import url(brackets_theme_tomorrow_night_bright.less);
+```
+
+
 # By
 
 
