@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colorTheme id="8867" name="Tomorrow" modified="2013-03-30 11:28:32" author="Chris Kempson" website="http://github.com/ChrisKempson/Tomorrow-Theme">
+    <searchResultIndication color="#EAB700" />
+    <filteredSearchResultIndication color="#EAB700" />
+    <occurrenceIndication color="#D6D6D6" />
+    <writeOccurrenceIndication color="#EAB700" />
+    <findScope color="#EAB700" />
+    <deletionIndication color="#DF5F5F" />
+    <sourceHoverBackground color="#4B4E55" />
+    <singleLineComment color="#8E908C" italic="false" />
+    <multiLineComment color="#8E908C" italic="false" />
+    <commentTaskTag color="#8E908C" />
+    <javadoc color="#8E908C" italic="false" />
+    <javadocLink color="#8E908C" />
+    <javadocTag color="#8E908C" />
+    <javadocKeyword color="#8E908C" />
+    <class color="#EAB700" />
+    <interface color="#4271AE" />
+    <method color="#4271AE" />
+    <methodDeclaration color="#4271AE" />
+    <bracket color="#4D4D4C" />
+    <number color="#718c00" />
+    <string color="#718C00" />
+    <operator color="#4271AE" />
+    <keyword color="#8959A8" />
+    <annotation color="#4B4E55" />
+    <staticMethod color="#4271AE" />
+    <localVariable color="#C82829" />
+    <localVariableDeclaration color="#C82829" />
+    <field color="#F5871F" />
+    <staticField color="#3E999F" />
+    <staticFinalField color="#3E999F" />
+    <deprecatedMember color="#4B4E55" underline="false" strikethrough="false" />
+    <enum color="#718C00" />
+    <inheritedMethod color="#4271AE" />
+    <abstractMethod color="#4271AE" />
+    <parameterVariable color="#C82829" />
+    <typeArgument color="#F5871F" />
+    <typeParameter color="#F5871F" />
+    <constant color="#718C00" bold="false" underline="false" strikethrough="false" />
+    <background color="#FFFFFF" />
+    <currentLine color="#EFEFEF" />
+    <foreground color="#4D4D4C" />
+    <lineNumber color="#4D4D4C" />
+    <selectionBackground color="#D6D6D6" />
+    <selectionForeground color="#4D4D4C" />
+</colorTheme>
