@@ -46,8 +46,6 @@
 @blue: #6699cc;
 @purple: #cc99cc;
 
-
-
 /* 
  * Background colors are ordered from least "intense" to most "intense"
  * So, if the background is light, then @background-color-3 should be
@@ -104,24 +102,23 @@
 /* inline editor colors */
 @inline-background-color-1: lighten(@background, @bc-color-step-size);
 @inline-background-color-2: lighten(@background, @bc-color-step-size*2);
-@inline-background-color-3: lighten(@background, @bc-color-step-size*3);
+@inline-background-color-3: rgba(0,0,0,0);
 
 @inline-color-1: darken(@foreground, @bc-color-step-size*2);
 @inline-color-2: darken(@foreground, @bc-color-step-size);
-@inline-color-3: @foreground;
+@inline-color-3: @background;
+
+/* Selection colors */
+@selection-color-focused: #585858;
+@selection-color-unfocused: #424242;
 
 /* Code font formatting
  *
- * NOTE (JRB): At this time, the font-family must be set in .code-font (not in one of the platform-specific versions).
- * This is because, in order to get the web font to load early enough, we have a div called "dummy-text" that
+ * NOTE (JRB): In order to get the web font to load early enough, we have a div called "dummy-text" that
  * is styled with .code-font().
  *
- * The platform-specific selector gets added to the body tag at document ready time, so it may not happen soon
- * enough to get the web font loaded. So, we can't rely on this selector to load web fonts in a platform-specific way
- *
- * An alternative (if we wanted platform-specific fonts) would be to have a dummy text div for EVERY web font, and
- * then style those dummy text divs directly in brackets_fonts.less. However, this would result in us downloading
- * all fonts for every platform. This probably isn't a huge performance problem, but isn't necessary at this time.
+ * The platform-specific selector gets added to the body tag *before* document ready time.
+ * We rely on this behavior to load platform-specific web fonts early.
  */
 .code-font() {
     color: @content-color;
@@ -138,6 +135,8 @@
 
 .code-font-mac() {
     .code-font();
+    /* Use the Medium weight on the Mac to counterbalance the grayscale antialiasing. */
+    font-family: 'SourceCodePro-Medium', "ＭＳ ゴシック", "MS Gothic", monospace;
 }
 
 .code-cursor() {
@@ -151,4 +150,3 @@
 }
 
 /* Variables and Mixins for non-code UI elements that can be styled */
-
