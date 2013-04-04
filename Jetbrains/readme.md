@@ -1,6 +1,8 @@
 # Jetbrains - Tomorrow Themes #
 
-Color schemes for the IntelliJ, PyCharm, PhpStorm, WebStorm and RubyMine IDEs. Has color scheme support for the following languages: C/C++, Java, PHP, Ruby, Python, Scala, Javascript, Coffeescript, Freemarker, Velocity, Smarty, Twig, HAML, YAML, CSS, LESS, SASS, XML, HTML, Apache, XPath, Django, Regex, SQL, GQL, Bash and many more.
+Color schemes for the IntelliJ, PyCharm, PhpStorm, WebStorm and RubyMine IDEs. 
+
+Has color scheme support for the following languages: C/C++, Java, PHP, Ruby, Python, Scala, Groovy, Go, Javascript, Coffeescript, ActionScript, Freemarker, Velocity, JSP, Mako, Smarty, Twig, HAML, YAML, CSS, LESS, SASS, XML, HTML, Apache, XPath, Django, Regex, SQL, GQL, Bash, Markdown and many more.
 
 To install the theme, import the settings.jar within IntelliJ, or PHPStorm, etc.
 
