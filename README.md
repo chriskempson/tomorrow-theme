@@ -29,7 +29,7 @@ Tomorrow theme variations in shown in TextMate with Ruby code and the font "Menl
 * SubEthaEdit (Uses Coda Themes)
 * BBEdit
 * Ace Editor
-* IntelliJ
+* IntelliJ, PHPStorm, WebStorm, RubyMine, PyCharm, etc
 * Visual Studio
 
 ## Hex Palettes
