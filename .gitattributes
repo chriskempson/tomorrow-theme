@@ -1,0 +1,8 @@
+# Always use LF
+* text eol=lf
+
+# Binary files
+*.clr binary
+*.png binary
+*.jar binary
+*.aco binary
