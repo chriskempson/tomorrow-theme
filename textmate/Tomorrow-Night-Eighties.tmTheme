@@ -29,7 +29,7 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment</string>
+			<string>comment, string.quoted.double.block.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -189,7 +189,7 @@
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
-		</dict>				
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Diff insertion</string>
@@ -224,7 +224,7 @@
 				<key>background</key>
 				<string>#4271ae</string>
 			</dict>
-		</dict>		
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Diff range</string>
