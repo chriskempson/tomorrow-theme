@@ -4,6 +4,9 @@
     <option name="USE_ONLY_MONOSPACED_FONTS" value="false" />
     <global_color_scheme name="Tomorrow" />
     <global_color_scheme name="Tomorrow Night" />
+    <global_color_scheme name="Tomorrow Night Blue" />
+    <global_color_scheme name="Tomorrow Night Bright" />
+    <global_color_scheme name="Tomorrow Night Eighties" />
   </component>
 </application>
 
