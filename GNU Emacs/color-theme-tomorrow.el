@@ -278,7 +278,7 @@ names to which it refers are bound."
 
      ;; dired+
      (diredp-compressed-file-suffix ((,class (:foreground ,blue))))
-     (diredp-dir-heading ((,class (:foreground nil :background nil :inherit heading))))
+     (diredp-dir-heading ((,class (:foreground nil :background nil :inherit dired-header))))
      (diredp-dir-priv ((,class (:foreground ,aqua :background nil))))
      (diredp-exec-priv ((,class (:foreground ,blue :background nil))))
      (diredp-executable-tag ((,class (:foreground ,red :background nil))))
