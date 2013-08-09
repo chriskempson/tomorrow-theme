@@ -2,6 +2,72 @@
 
 [[ -z "$PROFILE_NAME" ]] && PROFILE_NAME=Tomorrow
 [[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG=Tomorrow
+[[ -z "$DCONF" ]] && DCONF=dconf
+[[ -z "$UUIDGEN" ]] && UUIDGEN=uuidgen
+
+dset() {
+  local key="$1"; shift
+  local val="$1"; shift
+
+  if [[ "$type" == "string" ]]; then
+	  val="'$val'"
+  fi
+
+  "$DCONF" write "$PROFILE_KEY/$key" "$val"
+}
+
+# because dconf still doesn't have "append"
+dlist_append() {
+  local key="$1"; shift
+  local val="$1"; shift
+
+  local entries="$(
+    {
+      "$DCONF" read "$key" | tr -d '[]' | tr , "\n" | fgrep -v "$val"
+      echo "'$val'"
+    } | head -c-1 | tr "\n" ,
+  )"
+
+  "$DCONF" write "$key" "[$entries]"
+}
+
+# Newest versions of gnome-terminal use dconf
+if which "$DCONF" > /dev/null 2>&1; then
+	[[ -z "$BASE_KEY" ]] && BASE_KEY=/org/gnome/terminal/legacy/profiles:
+
+	if [[ -n "`$DCONF read $BASE_KEY/list`" ]]; then
+		if which "$UUIDGEN" > /dev/null 2>&1; then
+			PROFILE_SLUG=`uuidgen`
+		fi
+
+		DEFAULT_SLUG=`$DCONF read $BASE_KEY/default | tr -d \'`
+		DEFAULT_KEY="$BASE_KEY/:$DEFAULT_SLUG"
+		PROFILE_KEY="$BASE_KEY/:$PROFILE_SLUG"
+
+		echo "$DEFAULT_SLUG"
+		echo "$DEFAULT_KEY"
+		echo "$PROFILE_KEY"
+
+		# copy existing settings from default profile
+		$DCONF dump "$DEFAULT_KEY/" | $DCONF load "$PROFILE_KEY/"
+
+		# add new copy to list of profiles
+		dlist_append $BASE_KEY/list "$PROFILE_SLUG"
+
+		# update profile values with theme options
+		dset visible-name "'$PROFILE_NAME'"
+		dset palette "['rgb(0,0,0)','rgb(145,34,38)','rgb(119,137,0)','rgb(174,123,0)','rgb(29,37,148)','rgb(104,42,155)','rgb(43,102,81)','rgb(146,149,147)','rgb(102,102,102)','rgb(204,102,102)','rgb(181,189,104)','rgb(240,198,116)','rgb(129,182,190)','rgb(178,148,187)','rgb(138,190,183)','rgb(236,235,236)']"
+		dset background-color "'rgb(29,31,33)'"
+		dset foreground-color "'rgb(28,92,140)'"
+		dset bold-color "'rgb(138,186,183)'"
+		dset bold-color-same-as-fg "false"
+		dset use-theme-colors "false"
+
+		exit 0
+	fi
+fi
+
+# Fallback for Gnome 2 and early Gnome 3
 [[ -z "$GCONFTOOL" ]] && GCONFTOOL=gconftool
 [[ -z "$BASE_KEY" ]] && BASE_KEY=/apps/gnome-terminal/profiles
 
