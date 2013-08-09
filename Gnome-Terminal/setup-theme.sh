@@ -58,7 +58,7 @@ if which "$DCONF" > /dev/null 2>&1; then
 		dset visible-name "'$PROFILE_NAME'"
 		dset palette "['rgb(0,0,0)','rgb(145,34,38)','rgb(119,137,0)','rgb(174,123,0)','rgb(29,37,148)','rgb(104,42,155)','rgb(43,102,81)','rgb(146,149,147)','rgb(102,102,102)','rgb(204,102,102)','rgb(181,189,104)','rgb(240,198,116)','rgb(129,182,190)','rgb(178,148,187)','rgb(138,190,183)','rgb(236,235,236)']"
 		dset background-color "'rgb(29,31,33)'"
-		dset foreground-color "'rgb(28,92,140)'"
+		dset foreground-color "'rgb(197,200,198)'"
 		dset bold-color "'rgb(138,186,183)'"
 		dset bold-color-same-as-fg "false"
 		dset use-theme-colors "false"
