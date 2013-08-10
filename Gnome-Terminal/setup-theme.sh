@@ -35,24 +35,25 @@ dlist_append() {
 if which "$DCONF" > /dev/null 2>&1; then
 	[[ -z "$BASE_KEY" ]] && BASE_KEY=/org/gnome/terminal/legacy/profiles:
 
-	if [[ -n "`$DCONF read $BASE_KEY/list`" ]]; then
+	if [[ -n "`$DCONF list $BASE_KEY/`" ]]; then
 		if which "$UUIDGEN" > /dev/null 2>&1; then
 			PROFILE_SLUG=`uuidgen`
 		fi
 
-		DEFAULT_SLUG=`$DCONF read $BASE_KEY/default | tr -d \'`
+    if [[ -n "`$DCONF read $BASE_KEY/default`" ]]; then
+      DEFAULT_SLUG=`$DCONF read $BASE_KEY/default | tr -d \'`
+    else
+      DEFAULT_SLUG=`$DCONF list $BASE_KEY/ | grep '^:' | head -n1 | tr -d :/`
+    fi
+
 		DEFAULT_KEY="$BASE_KEY/:$DEFAULT_SLUG"
 		PROFILE_KEY="$BASE_KEY/:$PROFILE_SLUG"
-
-		echo "$DEFAULT_SLUG"
-		echo "$DEFAULT_KEY"
-		echo "$PROFILE_KEY"
 
 		# copy existing settings from default profile
 		$DCONF dump "$DEFAULT_KEY/" | $DCONF load "$PROFILE_KEY/"
 
 		# add new copy to list of profiles
-		dlist_append $BASE_KEY/list "$PROFILE_SLUG"
+    dlist_append $BASE_KEY/list "$PROFILE_SLUG"
 
 		# update profile values with theme options
 		dset visible-name "'$PROFILE_NAME'"
