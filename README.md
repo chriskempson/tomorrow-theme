@@ -119,3 +119,6 @@ The theme has been designed to be language independent and should look great wit
 
 ## The Future?
 I may be releasing other variations of this theme and will certainly be adding support for other more text editors/IDEs.
+
+## License
+Released under the [MIT License](https://github.com/chriskempson/tomorrow-theme/blob/master/LICENSE.md)
