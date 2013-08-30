@@ -512,7 +512,16 @@ names to which it refers are bound."
      (custom-variable-tag ((,class (:foreground ,blue))))
      (custom-group-tag ((,class (:foreground ,blue))))
      (custom-state ((,class (:foreground ,green))))
-     )))
+     
+     ;; term
+     (term-color-black ((,class (:foreground ,background :background ,background))))
+     (term-color-blue ((,class (:foreground ,blue :background ,blue))))
+     (term-color-cyan ((,class (:foreground ,aqua :background ,aqua))))
+     (term-color-green ((,class (:foreground ,green :background ,green))))
+     (term-color-magenta ((,class (:foreground ,purple :background ,purple))))
+     (term-color-red ((,class (:foreground ,red :background ,red))))
+     (term-color-white ((,class (:foreground ,foreground :background ,foreground))))
+     (term-color-yellow ((,class (:foreground ,yellow :background ,yellow)))))))
 
 (defmacro color-theme-tomorrow--frame-parameter-specs ()
   "Return a backquote which defines a list of frame parameter specs.
