@@ -378,6 +378,31 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("luaCondElseif", s:purple, "", "")
 	call <SID>X("luaCond", s:purple, "", "")
 	call <SID>X("luaCondEnd", s:purple, "", "")
+	
+	" Clojure "highlighting
+	call <SID>X("clojureConstant", s:orange, "", "")
+	call <SID>X("clojureBoolean", s:orange, "", "")
+	call <SID>X("clojureCharacter", s:orange, "", "")
+	call <SID>X("clojureKeyword", s:green, "", "")
+	call <SID>X("clojureNumber", s:orange, "", "")
+	call <SID>X("clojureString", s:green, "", "")
+	call <SID>X("clojureRegexp", s:green, "", "")
+	call <SID>X("clojureParen", s:aqua, "", "")
+	call <SID>X("clojureVariable", s:yellow, "", "")
+	call <SID>X("clojureCond", s:blue, "", "")
+	call <SID>X("clojureDefine", s:purple, "", "")
+	call <SID>X("clojureException", s:red, "", "")
+	call <SID>X("clojureFunc", s:blue, "", "")
+	call <SID>X("clojureMacro", s:blue, "", "")
+	call <SID>X("clojureRepeat", s:blue, "", "")
+	call <SID>X("clojureSpecial", s:purple, "", "")
+	call <SID>X("clojureQuote", s:blue, "", "")
+	call <SID>X("clojureUnquote", s:blue, "", "")
+	call <SID>X("clojureMeta", s:blue, "", "")
+	call <SID>X("clojureDeref", s:blue, "", "")
+	call <SID>X("clojureAnonArg", s:blue, "", "")
+	call <SID>X("clojureRepeat", s:blue, "", "")
+	call <SID>X("clojureDispatch", s:blue, "", "")
 
 	" Delete Functions
 	delf <SID>X
