@@ -31,6 +31,7 @@ Tomorrow theme variations in shown in TextMate with Ruby code and the font "Menl
 * Ace Editor
 * IntelliJ
 * Visual Studio
+* LightPaper
 
 ## Hex Palettes
 
