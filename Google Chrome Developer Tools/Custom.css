@@ -652,11 +652,52 @@ body.compact .help-window-outer {
 /*************************************************/
 /*Sources Panel                                  */
 /*Added: 9/30/13                                 */
+/*Modified: 10/3/13                              */
 /*By: Patrick Lindsay                            */
 /*Colors discerned from                          */
 /*http://github.com/chriskempson/tomorrow-theme/ */
 /*************************************************/
 
+.CodeMirror span.cm-js-keyword {color: #b294bb !important;}
+.CodeMirror span.cm-js-number {color: #de935f !important;}
+.CodeMirror span.cm-js-comment {color: #969896 !important;}
+.CodeMirror span.cm-js-string {color: #b5bd68 !important;}
+.CodeMirror span.cm-js-string-2 {color: #b5bd68 !important;}
+.CodeMirror span.cm-js-variable {color: #81a2be !important;}
+
+.CodeMirror span.cm-css-keyword { color: #b294bb !important;}
+.CodeMirror span.cm-css-number {color: #de935f !important;}
+.CodeMirror span.cm-css-comment {color: #969896 !important;}
+.CodeMirror span.cm-css-def {color: #cc6666 !important;}
+.CodeMirror span.cm-css-meta {color: #cc6666 !important;}
+.CodeMirror span.cm-css-atom {color: #8abeb7 !important;}
+.CodeMirror span.cm-css-string {color: #b5bd68 !important;}
+.CodeMirror span.cm-css-string-2 {color: #de935f !important;}
+.CodeMirror span.cm-css-link {color: #b5bd68 !important;}
+.CodeMirror span.cm-css-variable {color: #cc6666 !important;}
+.CodeMirror span.cm-css-variable-2 {color: #de935f !important;}
+.CodeMirror span.cm-css-property {color: #f0c674 !important;}
+.CodeMirror span.cm-css-qualifier {color: #cc6666 !important;}
+.CodeMirror span.cm-css-operator {color: #cc6666 !important;}
+.CodeMirror span.cm-css-tag {color: #b294bb !important;}
+.CodeMirror span.cm-css-builtin {color: #cc6666 !important;}
+
+.CodeMirror span.cm-xml-meta, .CodeMirror span.cm-html-meta {color: #c5c8c6 !important;}
+.CodeMirror span.cm-xml-comment, .CodeMirror span.cm-html-comment {color: #969896 !important;}
+.CodeMirror span.cm-xml-string, .CodeMirror span.cm-html-string {color: #b5bd68 !important;}
+.CodeMirror span.cm-xml-tag, .CodeMirror span.cm-html-tag {color: #cc6666 !important;}
+.CodeMirror span.cm-xml-error, .CodeMirror span.cm-html-error {color: #cc6666 !important;}
+.CodeMirror span.cm-xml-attribute, .CodeMirror span.cm-html-attribute {color: #bdb568 !important;}
+.CodeMirror span.cm-xml-link, .CodeMirror span.cm-html-link {color: #8abeb7 !important;}
+
+.CodeMirror-cursor{border-color:white !important}
+.CodeMirror pre{color: #c5c8c6 !important;}
+
+/**********************************************************/
+/* Backwards Compatibility (CodeMirror for Chrome <= 29)  */
+/* Added: 10/3/2013                                       */
+/* By: Patrick Lindsay                                    */
+/**********************************************************/
 .cm-s-web-inspector-js span.cm-keyword {color: #b294bb !important;}
 .cm-s-web-inspector-js span.cm-number {color: #de935f !important;}
 .cm-s-web-inspector-js span.cm-comment {color: #969896 !important;}
@@ -687,6 +728,3 @@ body.compact .help-window-outer {
 .cm-s-web-inspector-html span.cm-tag {color: #cc6666 !important;}
 .cm-s-web-inspector-html span.cm-attribute {color: #bdb568 !important;}
 .cm-s-web-inspector-html span.cm-link {color: #8abeb7 !important;}
-
-.CodeMirror-cursor{border-color:white !important}
-.CodeMirror pre{color: #c5c8c6 !important;}
