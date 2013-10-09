@@ -51,9 +51,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Variable, String Link, Regular Expression, Tag Name</string>
+			<string>Variable, String Link, Regular Expression, Tag Name, GitGutter deleted</string>
 			<key>scope</key>
-			<string>variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag</string>
+			<string>variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag, markup.deleted.git_gutter</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -88,9 +88,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String, Symbols, Inherited Class, Markup Heading</string>
+			<string>String, Symbols, Inherited Class, Markup Heading, GitGutter inserted</string>
 			<key>scope</key>
-			<string>string, constant.other.symbol, entity.other.inherited-class, markup.heading</string>
+			<string>string, constant.other.symbol, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -112,9 +112,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Function, Special Method, Block Level</string>
+			<string>Function, Special Method, Block Level, GitGutter changed</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level</string>
+			<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level, markup.changed.git_gutter</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -189,7 +189,7 @@
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
-		</dict>				
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Diff insertion</string>
@@ -224,7 +224,7 @@
 				<key>background</key>
 				<string>#4271ae</string>
 			</dict>
-		</dict>		
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Diff range</string>
