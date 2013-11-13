@@ -90,7 +90,7 @@
 			<key>name</key>
 			<string>String, Symbols, Inherited Class, Markup Heading, GitGutter inserted</string>
 			<key>scope</key>
-			<string>string, constant.other.symbol, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter</string>
+			<string>string, constant.other.symbol, entity.other.inherited-class, entity.name.filename, markup.heading, markup.inserted.git_gutter</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -189,7 +189,7 @@
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
-		</dict>				
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Diff insertion</string>
@@ -224,7 +224,7 @@
 				<key>background</key>
 				<string>#4271ae</string>
 			</dict>
-		</dict>		
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Diff range</string>
