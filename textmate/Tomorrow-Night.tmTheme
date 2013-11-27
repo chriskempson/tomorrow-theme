@@ -241,5 +241,7 @@
 	</array>
 	<key>uuid</key>
 	<string>F96223EB-1A60-4617-92F3-D24D4F13DB09</string>
+  <key>colorSpaceName</key>
+  <string>sRGB</string>
 </dict>
 </plist>
