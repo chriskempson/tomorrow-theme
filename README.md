@@ -123,3 +123,7 @@ I may be releasing other variations of this theme and will certainly be adding s
 
 ## License
 Released under the [MIT License](https://github.com/chriskempson/tomorrow-theme/blob/master/LICENSE.md)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/chriskempson/tomorrow-theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
