@@ -16,11 +16,11 @@
   <style name="String" foreground="#d1f1a9"/>
   <style name="Type" foreground="#bbdaff"/>
   <style name="Local" foreground="#ffffff"/>
-  <style name="Field" foreground="#ff9da4"/>
+  <style name="Field" foreground="#ffffff"/>
   <style name="Static" foreground="#ffc58f"/>
   <style name="VirtualMethod" foreground="#bbdaff" italic="true"/>
   <style name="Function" foreground="#bbdaff"/>
-  <style name="Keyword" foreground="#ffffff" bold="true"/>
+  <style name="Keyword" foreground="#ff9da4" bold="true"/>
   <style name="Operator" foreground="#99ffff"/>
   <style name="Preprocessor" foreground="#ebbbff"/>
   <style name="Label" foreground="#ffffff" bold="true"/>

@@ -34,10 +34,10 @@
   <style name="Static" foreground="#f5871f" />
   <style name="Number" foreground="#f5871f" />
   <style name="Doxygen.Comment" foreground="#4d4d4c" />
-  <style name="Field" foreground="#c82829" />
+  <style name="Field" foreground="#4d4d4c" />
   <style name="Label" foreground="#4d4d4c" bold="true" />
   <style name="Binding" foreground="#4d4d4c" bold="true" />
-  <style name="Keyword" foreground="#4d4d4c" bold="true" />
+  <style name="Keyword" foreground="#c82829" bold="true" />
   <style name="Preprocessor" foreground="#8959a8" />
   <style name="Type" foreground="#4271ae" />
   <style name="QmlTypeId" foreground="#4271ae" />

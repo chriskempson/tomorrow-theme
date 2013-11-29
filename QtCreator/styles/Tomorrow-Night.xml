@@ -16,14 +16,14 @@
   <style name="String" foreground="#b5bd68"/>
   <style name="Type" foreground="#81a2be"/>
   <style name="Local" foreground="#c5c8c6"/>
-  <style name="Field" foreground="#cc6666"/>
+  <style name="Field" foreground="#c5c8c6"/>
   <style name="Static" foreground="#de935f"/>
   <style name="VirtualMethod" foreground="#81a2be" italic="true"/>
   <style name="Function" foreground="#81a2be"/>
-  <style name="Keyword" foreground="#c5c8c6" bold="true"/>
+  <style name="Keyword" foreground="#cc6666" bold="true"/>
   <style name="Operator" foreground="#8abeb7"/>
   <style name="Preprocessor" foreground="#b294bb"/>
-  <style name="Label" foreground="#c5c8c6" bold="true"/>
+  <style name="Label" foreground="#cc6666" bold="true"/>
   <style name="Comment" foreground="#969896"/>
   <style name="Doxygen.Comment" foreground="#969896"/>
   <style name="Doxygen.Tag" foreground="#969896"/>
