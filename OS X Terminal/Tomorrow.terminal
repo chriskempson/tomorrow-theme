@@ -146,6 +146,8 @@
 	dmVy0RcYVHJvb3SAAQgRGiMtMjc7QUhOW2KMjpCVoKmxtL3P0tcAAAAAAAABAQAAAAAA
 	AAAZAAAAAAAAAAAAAAAAAAAA2Q==
 	</data>
+	<key>BackgroundBlur</key>
+	<real>0.0</real>
 	<key>BackgroundColor</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGFRZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
@@ -167,11 +169,13 @@
 	<data>
 	YnBsaXN0MDDUAQIDBAUGGBlYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
 	AAGGoKQHCBESVSRudWxs1AkKCwwNDg8QVk5TU2l6ZVhOU2ZGbGFnc1ZOU05hbWVWJGNs
-	YXNzI0AwAAAAAAAAEBCAAoADVk1vbmFjb9ITFBUWWiRjbGFzc25hbWVYJGNsYXNzZXNW
-	TlNGb250ohUXWE5TT2JqZWN0XxAPTlNLZXllZEFyY2hpdmVy0RobVHJvb3SAAQgRGiMt
-	Mjc8QktSW2JpcnR2eH+Ej5ifoqu9wMUAAAAAAAABAQAAAAAAAAAcAAAAAAAAAAAAAAAA
-	AAAAxw==
+	YXNzI0AmAAAAAAAAEBCAAoADXU1lbmxvLVJlZ3VsYXLSExQVFlokY2xhc3NuYW1lWCRj
+	bGFzc2VzVk5TRm9udKIVF1hOU09iamVjdF8QD05TS2V5ZWRBcmNoaXZlctEaG1Ryb290
+	gAEIERojLTI3PEJLUltiaXJ0dniGi5afpqmyxMfMAAAAAAAAAQEAAAAAAAAAHAAAAAAA
+	AAAAAAAAAAAAAM4=
 	</data>
+	<key>FontAntialias</key>
+	<true/>
 	<key>ProfileCurrentVersion</key>
 	<real>2.02</real>
 	<key>SelectionColor</key>
@@ -183,6 +187,12 @@
 	dmVy0RcYVHJvb3SAAQgRGiMtMjc7QUhOW2KMjpCVoKmxtL3P0tcAAAAAAAABAQAAAAAA
 	AAAZAAAAAAAAAAAAAAAAAAAA2Q==
 	</data>
+	<key>ShowActiveProcessInTitle</key>
+	<false/>
+	<key>ShowCommandKeyInTitle</key>
+	<true/>
+	<key>ShowDimensionsInTitle</key>
+	<false/>
 	<key>TextBoldColor</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGFRZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
@@ -207,7 +217,11 @@
 	<true/>
 	<key>name</key>
 	<string>Tomorrow</string>
+	<key>shellExitAction</key>
+	<integer>0</integer>
 	<key>type</key>
 	<string>Window Settings</string>
+	<key>useOptionAsMetaKey</key>
+	<true/>
 </dict>
 </plist>
