@@ -1,0 +1,89 @@
+.editor, .editor .gutter {
+  background-color: #2D2D2D;
+  color: #CCCCCC;
+}
+
+.editor.is-focused .cursor {
+  border-color: #CCCCCC;
+}
+
+.editor.is-focused .selection .region {
+  background-color: #515151;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: #393939;
+}
+
+.comment {
+  color: #999999;
+}
+
+.keyword.operator.class, .constant.other, .source.php.embedded.line {
+  color: #CCCCCC;
+}
+
+.variable, .support.other.variable, .string.other.link, .entity.name.tag, .entity.other.attribute-name, .meta.tag, .declaration.tag, .markup.deleted.git_gutter {
+  color: #F2777A;
+}
+
+.constant.numeric, .constant.language, .support.constant, .constant.character, .variable.parameter, .punctuation.section.embedded, .keyword.other.unit {
+  color: #F99157;
+}
+
+.entity.name.class, .entity.name.type.class, .support.type, .support.class {
+  color: #FFCC66;
+}
+
+.string, .constant.other.symbol, .entity.other.inherited-class, .entity.name.filename, .markup.heading, .markup.inserted.git_gutter {
+  color: #99CC99;
+}
+
+.keyword.operator, .constant.other.color {
+  color: #66CCCC;
+}
+
+.entity.name.function, .meta.function-call, .support.function, .keyword.other.special-method, .meta.block-level, .markup.changed.git_gutter {
+  color: #6699CC;
+}
+
+.keyword, .storage, .storage.type, .entity.name.tag.css {
+  color: #CC99CC;
+}
+
+.invalid {
+  color: #CDCDCD;
+  background-color: #F2777A;
+}
+
+.meta.separator {
+  color: #CDCDCD;
+  background-color: #99CCCC;
+}
+
+.invalid.deprecated {
+  color: #CDCDCD;
+  background-color: #CC99CC;
+}
+
+.markup.inserted.diff, .markup.deleted.diff, .meta.diff.header.to-file, .meta.diff.header.from-file {
+  color: #FFFFFF;
+}
+
+.markup.inserted.diff, .meta.diff.header.to-file {
+  color: #718c00;
+}
+
+.markup.deleted.diff, .meta.diff.header.from-file {
+  color: #c82829;
+}
+
+.meta.diff.header.from-file, .meta.diff.header.to-file {
+  color: #FFFFFF;
+  background-color: #4271ae;
+}
+
+.meta.diff.range {
+  font-style: italic;
+  color: #3e999f;
+}
