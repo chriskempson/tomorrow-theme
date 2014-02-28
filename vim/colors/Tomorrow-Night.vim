@@ -340,9 +340,9 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("javaScriptRepeat", s:purple, "", "")
 	call <SID>X("javaScriptNumber", s:orange, "", "")
 	call <SID>X("javaScriptMember", s:orange, "", "")
-    call <SID>X("javascriptNull", s:orange, "", "")
-    call <SID>X("javascriptGlobal", s:blue, "", "")
-    call <SID>X("javascriptStatement", s:red, "", "")
+	call <SID>X("javascriptNull", s:orange, "", "")
+	call <SID>X("javascriptGlobal", s:blue, "", "")
+	call <SID>X("javascriptStatement", s:red, "", "")
 
 	" HTML Highlighting
 	call <SID>X("htmlTag", s:red, "", "")
@@ -381,7 +381,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("luaCondElseif", s:purple, "", "")
 	call <SID>X("luaCond", s:purple, "", "")
 	call <SID>X("luaCondEnd", s:purple, "", "")
-	
+
 	" Clojure "highlighting
 	call <SID>X("clojureConstant", s:orange, "", "")
 	call <SID>X("clojureBoolean", s:orange, "", "")
@@ -406,7 +406,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("clojureAnonArg", s:blue, "", "")
 	call <SID>X("clojureRepeat", s:blue, "", "")
 	call <SID>X("clojureDispatch", s:blue, "", "")
-	
+
 	" Scala "highlighting
 	call <SID>X("scalaKeyword", s:purple, "", "")
 	call <SID>X("scalaKeywordModifier", s:purple, "", "")

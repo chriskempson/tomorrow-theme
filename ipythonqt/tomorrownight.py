@@ -5,7 +5,7 @@
 
     Tomorrow Night theme for ipython qtconsole (invoke with
     ipython qtconsole --style=tomorrownight)
-    
+
     See https://github.com/chriskempson/tomorrow-theme for theme info
 
     :copyright: Copyright 2012 André Risnes, risnes@gmail.com

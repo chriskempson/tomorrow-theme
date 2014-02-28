@@ -1,4 +1,4 @@
-﻿# Tomorrow Night Theme for IPython Qt Console 
+﻿# Tomorrow Night Theme for IPython Qt Console
 
 ## Usage:
 
@@ -10,7 +10,7 @@ If you want a different font from the default, you have to specify it on the com
 line by adding
 
     --ConsoleWidget.font_family="Font Family" --ConsoleWidget.font_size=NUMBER
-    
+
 to the command.
 
 ## Development info:

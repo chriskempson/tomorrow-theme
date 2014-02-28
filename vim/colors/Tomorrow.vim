@@ -234,7 +234,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 
 	" Vim Highlighting
 	call <SID>X("Normal", s:foreground, s:background, "")
-  highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
+	highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 	call <SID>X("NonText", s:selection, "", "")
 	call <SID>X("SpecialKey", s:selection, "", "")
 	call <SID>X("Search", s:foreground, s:yellow, "")
@@ -331,9 +331,9 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("javaScriptRepeat", s:purple, "", "")
 	call <SID>X("javaScriptNumber", s:orange, "", "")
 	call <SID>X("javaScriptMember", s:orange, "", "")
-    call <SID>X("javascriptNull", s:orange, "", "")
-    call <SID>X("javascriptGlobal", s:blue, "", "")
-    call <SID>X("javascriptStatement", s:red, "", "")
+	call <SID>X("javascriptNull", s:orange, "", "")
+	call <SID>X("javascriptGlobal", s:blue, "", "")
+	call <SID>X("javascriptStatement", s:red, "", "")
 
 	" HTML Highlighting
 	call <SID>X("htmlTag", s:red, "", "")
