@@ -450,6 +450,10 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("scalaConstructorSpecializer", s:yellow, "", "")
 	call <SID>X("scalaBackTick", s:blue, "", "")
 
+	" Git
+	call <SID>X("diffAdded", s:green, "", "")
+	call <SID>X("diffRemoved", s:red, "", "")
+
 	" Delete Functions
 	delf <SID>X
 	delf <SID>rgb
