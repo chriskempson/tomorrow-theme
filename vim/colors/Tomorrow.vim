@@ -5,7 +5,7 @@
 
 " Default GUI Colours
 let s:foreground = "4d4d4c"
-let s:background = "fafafa"
+let s:background = "ffffff"
 let s:selection = "d6d6d6"
 let s:line = "efefef"
 let s:comment = "8e908c"
@@ -337,11 +337,11 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("javascriptGlobal", s:blue, "", "")
 	call <SID>X("javascriptStatement", s:red, "", "")
 
-        " CoffeeScript Highlighting
-        call <SID>X("coffeeRepeat", s:purple, "", "")
-        call <SID>X("coffeeConditional", s:purple, "", "")
-        call <SID>X("coffeeKeyword", s:purple, "", "")
-        call <SID>X("coffeeObject", s:yellow, "", "")
+	" CoffeeScript Highlighting
+	call <SID>X("coffeeRepeat", s:purple, "", "")
+	call <SID>X("coffeeConditional", s:purple, "", "")
+	call <SID>X("coffeeKeyword", s:purple, "", "")
+	call <SID>X("coffeeObject", s:yellow, "", "")
 
 	" HTML Highlighting
 	call <SID>X("htmlTag", s:red, "", "")
@@ -449,6 +449,10 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("scalaXml", s:green, "", "")
 	call <SID>X("scalaConstructorSpecializer", s:yellow, "", "")
 	call <SID>X("scalaBackTick", s:blue, "", "")
+
+	" Git
+	call <SID>X("diffAdded", s:green, "", "")
+	call <SID>X("diffRemoved", s:red, "", "")
 
 	" Delete Functions
 	delf <SID>X

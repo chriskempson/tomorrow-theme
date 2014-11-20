@@ -32,6 +32,7 @@ Tomorrow theme variations in shown in TextMate with Ruby code and the font "Menl
 * IntelliJ
 * Visual Studio
 * LightPaper
+* Peppermint -(https://github.com/osxpeppermint/peppermint-themes/tree/master/Tomorrow%20Night.ppTheme)
 
 ## Hex Palettes
 
