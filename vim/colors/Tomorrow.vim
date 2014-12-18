@@ -316,6 +316,21 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("rubyControl", s:purple, "", "")
 	call <SID>X("rubyException", s:purple, "", "")
 
+	" Crystal Highlighting
+	call <SID>X("crystalSymbol", s:green, "", "")
+	call <SID>X("crystalConstant", s:yellow, "", "")
+	call <SID>X("crystalAccess", s:yellow, "", "")
+	call <SID>X("crystalAttribute", s:blue, "", "")
+	call <SID>X("crystalInclude", s:blue, "", "")
+	call <SID>X("crystalLocalVariableOrMethod", s:orange, "", "")
+	call <SID>X("crystalCurlyBlock", s:orange, "", "")
+	call <SID>X("crystalStringDelimiter", s:green, "", "")
+	call <SID>X("crystalInterpolationDelimiter", s:orange, "", "")
+	call <SID>X("crystalConditional", s:purple, "", "")
+	call <SID>X("crystalRepeat", s:purple, "", "")
+	call <SID>X("crystalControl", s:purple, "", "")
+	call <SID>X("crystalException", s:purple, "", "")
+
 	" Python Highlighting
 	call <SID>X("pythonInclude", s:purple, "", "")
 	call <SID>X("pythonStatement", s:purple, "", "")
