@@ -398,7 +398,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("goDeclType", s:blue, "", "")
 	call <SID>X("goBuiltins", s:purple, "", "")
 
-	" Clojure "highlighting
+	" Clojure Highlighting
 	call <SID>X("clojureConstant", s:orange, "", "")
 	call <SID>X("clojureBoolean", s:orange, "", "")
 	call <SID>X("clojureCharacter", s:orange, "", "")
@@ -423,7 +423,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("clojureRepeat", s:blue, "", "")
 	call <SID>X("clojureDispatch", s:blue, "", "")
 
-	" Scala "highlighting
+	" Scala Highlighting
 	call <SID>X("scalaKeyword", s:purple, "", "")
 	call <SID>X("scalaKeywordModifier", s:purple, "", "")
 	call <SID>X("scalaOperator", s:blue, "", "")
