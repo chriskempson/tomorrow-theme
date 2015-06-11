@@ -353,6 +353,22 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("javascriptGlobal", s:blue, "", "")
 	call <SID>X("javascriptStatement", s:red, "", "")
 
+  " pangloss/vim-javascript Highlighting
+	call <SID>X("jsBuiltins", s:blue, "", "")
+	call <SID>X("jsConditional", s:purple, "", "")
+	call <SID>X("jsException", s:purple, "", "")
+	call <SID>X("jsFuncName", s:blue, "", "")
+	call <SID>X("jsFunction", s:purple, "", "")
+	call <SID>X("jsFutureKeys", s:purple, "", "")
+	call <SID>X("jsGlobalObjects", s:yellow, "", "")
+	call <SID>X("jsLabel", s:purple, "", "")
+	call <SID>X("jsNull", s:orange, "", "")
+	call <SID>X("jsRepeat", s:purple, "", "")
+	call <SID>X("jsReturn", s:purple, "", "")
+	call <SID>X("jsStatement", s:red, "", "")
+	call <SID>X("jsThis", s:red, "", "")
+	call <SID>X("jsUndefined", s:red, "", "")
+
 	" CoffeeScript Highlighting
 	call <SID>X("coffeeRepeat", s:purple, "", "")
 	call <SID>X("coffeeConditional", s:purple, "", "")
