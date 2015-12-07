@@ -1,0 +1,23 @@
+[colors]
+color0 = #000000
+color1 = #f27779
+color10 = #99cc99
+color12 = #6699cc
+color13 = #cc99cc
+color14 = #66cccc
+color2 = #99cc99
+color4 = #6699cc
+color5 = #cc99cc
+color6 = #66cccc
+color8 = #000000
+color9 = #f17779
+background = #2c2c2c
+foreground_bold = #cccccc
+cursor = #cccccc
+foreground = #cccccc
+highlight = #515151
+
+# The following variables (taken from iTerm Scheme) are not
+# available in termite
+# Cursor Text Color = #2c2c2c
+# Selected Text Color = #cccccc
