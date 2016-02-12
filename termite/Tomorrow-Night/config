@@ -43,7 +43,7 @@ background = #1d1f21
 #cursor = #aeafad
 
 # if unset, will reverse foreground and background
-highlight = #d6d6d6
+highlight = #373b41
 
 # colors from color0 to color254 can be set
 # Black + Grey
