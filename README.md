@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Tomorrow Theme
 
 [![Flattr this](http://api.flattr.com/button/flattr-badge-large.png)](http://flattr.com/thing/814991/chriskempsontomorrow-theme-on-GitHub)
@@ -5,10 +6,15 @@
 After having spent over five years using, tweaking and refining a personal editor theme I decided it was time to release "Tomorrow Theme" - a bright theme with pastel colours and sensible syntax highlighting. 
 
 A theme should not get in your way but should aid your programming with easily identifiable colours that add meaning and enhance legibility. This was the main focus when developing Tomorrow. 
+=======
+# ![Tomorrow Theme](https://github.com/chriskempson/tomorrow-theme/raw/dev/images/logo.png)
+Tomorrow is a colour palette comprising of sixteen colours (eight monotone colours and eight accent colours). It has been designed to aid programming by providing easily distinguishable colours that not only enhance legibility but add meaning through grouping common items.
+>>>>>>> 47a7429a41b1622ed7023cf1bb6a49029be2cced
 
 Check out [base16](https://github.com/chriskempson/base16) the next evolution of Tomorrow Theme!
 
 ## Take a look!
+<<<<<<< HEAD
 Tomorrow theme variations in shown in TextMate with Ruby code and the font "Menlo".  
 ![Ruby Code in Tomorrow Night](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Night.png)
 ![Ruby Code in Tomorrow](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow.png)
@@ -38,87 +44,32 @@ Tomorrow theme variations in shown in TextMate with Ruby code and the font "Menl
 
 ### Tomorrow Night
 ![Tomorrow Night](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Night-Palette.png)
+=======
+Tomorrow theme demonstrated in TextMate editor highlighting Ruby code.
+>>>>>>> 47a7429a41b1622ed7023cf1bb6a49029be2cced
 
-`#1d1f21` Background  
-`#282a2e` Current Line  
-`#373b41` Selection  
-`#c5c8c6` Foreground  
-`#969896` Comment  
-`#cc6666` Red  
-`#de935f` Orange  
-`#f0c674` Yellow  
-`#b5bd68` Green  
-`#8abeb7` Aqua  
-`#81a2be` Blue  
-`#b294bb` Purple  
+![Ruby Code in Tomorrow Night]()
+![Ruby Code in Tomorrow]()
 
-### Tomorrow
-![Tomorrow](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Palette.png)
+## Supported Editors
 
-`#ffffff` Background  
-`#efefef` Current Line  
-`#d6d6d6` Selection  
-`#4d4d4c` Foreground  
-`#8e908c` Comment  
-`#c82829` Red  
-`#f5871f` Orange  
-`#eab700` Yellow  
-`#718c00` Green  
-`#3e999f` Aqua  
-`#4271ae` Blue  
-`#8959a8` Purple
+## Installation
 
-### Tomorrow Night Eighties
-![Tomorrow Night Eighties](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Night-Eighties-Palette.png)
+## Reporting Issues
+Please report issues in their appropriate repositories:
 
-`#2d2d2d` Background  
-`#393939` Current Line  
-`#515151` Selection  
-`#cccccc` Foreground  
-`#999999` Comment  
-`#f2777a` Red  
-`#f99157` Orange  
-`#ffcc66` Yellow  
-`#99cc99` Green  
-`#66cccc` Aqua  
-`#6699cc` Blue  
-`#cc99cc` Purple
+* Vim - [https://github.com/chriskempson/vim-tomorrow-theme]()
+* TextMate - [https://github.com/chriskempson/textmate-tomorrow-theme]()
+* iTerm - [https://github.com/chriskempson/iterm-tomorrow-theme]()
+* OS X Terminal - [https://github.com/chriskempson/os-x-terminal-tomorrow-theme]()
+* OS X Palette - [https://github.com/chriskempson/os-x-palette-tomorrow-theme]()
+* Eclipse - [https://github.com/chriskempson/eclipse-tomorrow-theme]()
+* Ace - [https://github.com/chriskempson/ace-tomorrow-theme]()
+* Xcode - [https://github.com/chriskempson/xcode-tomorrow-theme]()
 
-### Tomorrow Night Blue
-![Tomorrow Night Blue](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Night-Blue-Palette.png)
+## Contributing
 
-`#002451` Background  
-`#00346e` Current Line  
-`#003f8e` Selection  
-`#ffffff` Foreground  
-`#7285b7` Comment  
-`#ff9da4` Red  
-`#ffc58f` Orange  
-`#ffeead` Yellow  
-`#d1f1a9` Green  
-`#99ffff` Aqua  
-`#bbdaff` Blue  
-`#ebbbff` Purple
-
-### Tomorrow Night Bright
-![Tomorrow Night Bright](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Night-Bright-Palette.png)
-
-`#000000` Background  
-`#2a2a2a` Current Line  
-`#424242` Selection  
-`#eaeaea` Foreground  
-`#969896` Comment  
-`#d54e53` Red  
-`#e78c45` Orange  
-`#e7c547` Yellow  
-`#b9ca4a` Green  
-`#70c0b1` Aqua  
-`#7aa6da` Blue  
-`#c397d8` Purple
-
-## Language Support
-The theme has been designed to be language independent and should look great with any language. However, if you find this isn't the case, just send me some sample code and I'll try to fix it!
-
+<<<<<<< HEAD
 ## The Future?
 I may be releasing other variations of this theme and will certainly be adding support for other more text editors/IDEs.
 
@@ -128,3 +79,7 @@ Released under the [MIT License](https://github.com/chriskempson/tomorrow-theme/
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/chriskempson/tomorrow-theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
+=======
+## Self Promotion
+Like Tomorrow? Watch the repository on GitHub and if you're feeling especially generous follow [ChrisKempson](http://chriskempson.com) on [Twitter](http://twitter.com/chriskempson) and [GitHub](http://github.com/chriskempson).
+>>>>>>> 47a7429a41b1622ed7023cf1bb6a49029be2cced
