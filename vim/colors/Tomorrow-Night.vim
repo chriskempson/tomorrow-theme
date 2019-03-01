@@ -6,6 +6,7 @@
 " Default GUI Colours
 let s:foreground = "c5c8c6"
 let s:background = "1d1f21"
+"let s:background = "26292c"
 let s:selection = "373b41"
 let s:line = "282a2e"
 let s:comment = "969896"
@@ -19,12 +20,12 @@ let s:purple = "b294bb"
 let s:window = "4d5057"
 
 " Console 256 Colours
-if !has("gui_running")
-	let s:background = "303030"
-	let s:window = "5e5e5e"
-	let s:line = "3a3a3a"
-	let s:selection = "585858"
-end
+"if !has("gui_running")
+"    let s:background = "303030"
+"    let s:window = "5e5e5e"
+"    let s:line = "3a3a3a"
+"    let s:selection = "585858"
+"end
 
 hi clear
 syntax reset
@@ -242,7 +243,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	" Vim Highlighting
 	call <SID>X("Normal", s:foreground, s:background, "")
 	call <SID>X("LineNr", s:selection, "", "")
-	call <SID>X("NonText", s:selection, "", "")
+	call <SID>X("NonText", s:comment, "", "")
 	call <SID>X("SpecialKey", s:selection, "", "")
 	call <SID>X("Search", s:background, s:yellow, "")
 	call <SID>X("TabLine", s:window, s:foreground, "reverse")
@@ -251,14 +252,19 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("StatusLineNC", s:window, s:foreground, "reverse")
 	call <SID>X("VertSplit", s:window, s:window, "none")
 	call <SID>X("Visual", "", s:selection, "")
-	call <SID>X("Directory", s:blue, "", "")
+	call <SID>X("Directory", s:blue, "", "bold")
 	call <SID>X("ModeMsg", s:green, "", "")
 	call <SID>X("MoreMsg", s:green, "", "")
 	call <SID>X("Question", s:green, "", "")
 	call <SID>X("WarningMsg", s:red, "", "")
-	call <SID>X("MatchParen", "", s:selection, "")
+	call <SID>X("MatchParen", "", s:selection, "bold")
 	call <SID>X("Folded", s:comment, s:background, "")
 	call <SID>X("FoldColumn", "", s:background, "")
+    " Custom
+	call <SID>X("Error", s:foreground, s:selection, "")
+	call <SID>X("ErrorMsg", s:foreground, s:selection, "")
+	call <SID>X("SpecialChar", s:foreground, "", "")
+	call <SID>X("PreCondit", s:purple, "", "")
 	if version >= 700
 		call <SID>X("CursorLine", "", s:line, "none")
 		call <SID>X("CursorColumn", "", s:line, "none")
@@ -273,15 +279,15 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	" Standard Highlighting
 	call <SID>X("Comment", s:comment, "", "")
 	call <SID>X("Todo", s:comment, s:background, "")
-	call <SID>X("Title", s:comment, "", "")
+	call <SID>X("Title", s:comment, "", "bold")
 	call <SID>X("Identifier", s:red, "", "none")
-	call <SID>X("Statement", s:foreground, "", "")
-	call <SID>X("Conditional", s:foreground, "", "")
+	call <SID>X("Statement", s:foreground, "", "bold")
+	call <SID>X("Conditional", s:foreground, "", "bold")
 	call <SID>X("Repeat", s:foreground, "", "")
 	call <SID>X("Structure", s:purple, "", "")
 	call <SID>X("Function", s:blue, "", "")
-	call <SID>X("Constant", s:orange, "", "")
-	call <SID>X("Keyword", s:orange, "", "")
+	call <SID>X("Constant", s:orange, "", "bold")
+	call <SID>X("Keyword", s:orange, "", "bold")
 	call <SID>X("String", s:green, "", "")
 	call <SID>X("Special", s:foreground, "", "")
 	call <SID>X("PreProc", s:purple, "", "")
@@ -339,14 +345,13 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("crystalException", s:purple, "", "")
 
 	" Python Highlighting
-	call <SID>X("pythonInclude", s:purple, "", "")
-	call <SID>X("pythonStatement", s:purple, "", "")
-	call <SID>X("pythonConditional", s:purple, "", "")
-	call <SID>X("pythonRepeat", s:purple, "", "")
+	call <SID>X("pythonInclude", s:purple, "", "bold")
+	call <SID>X("pythonStatement", s:purple, "", "bold")
+	call <SID>X("pythonConditional", s:purple, "", "bold")
+	call <SID>X("pythonRepeat", s:purple, "", "bold")
 	call <SID>X("pythonException", s:purple, "", "")
 	call <SID>X("pythonFunction", s:blue, "", "")
-	call <SID>X("pythonPreCondit", s:purple, "", "")
-	call <SID>X("pythonRepeat", s:aqua, "", "")
+	call <SID>X("pythonPreCondit", s:purple, "", "bold")
 	call <SID>X("pythonExClass", s:orange, "", "")
 
 	" JavaScript Highlighting
