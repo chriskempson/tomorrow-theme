@@ -29,7 +29,7 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment</string>
+			<string>comment, string.quoted.double.block.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
