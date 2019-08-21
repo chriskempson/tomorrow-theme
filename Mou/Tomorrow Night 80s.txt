@@ -73,7 +73,7 @@ foreground: 999999
 
 HTML_ENTITY
 foreground: cc99cc
-
+ 
 COMMENT
 foreground: 888888
 
