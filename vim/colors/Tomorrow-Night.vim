@@ -3,6 +3,9 @@
 "
 " Hex colour conversion functions borrowed from the theme "Desert256""
 
+" Enable if your terminal is transparent
+let g:trans = 0
+
 " Default GUI Colours
 let s:foreground = "c5c8c6"
 let s:background = "1d1f21"
@@ -232,7 +235,11 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 			exec "hi " . a:group . " guifg=#" . a:fg . " ctermfg=" . <SID>rgb(a:fg)
 		endif
 		if a:bg != ""
-			exec "hi " . a:group . " guibg=#" . a:bg . " ctermbg=" . <SID>rgb(a:bg)
+      if g:trans == 1 && a:bg == s:background
+			  exec "hi " . a:group . " guibg=#" . a:bg . " ctermbg=none"
+      else
+			  exec "hi " . a:group . " guibg=#" . a:bg . " ctermbg=" . <SID>rgb(a:bg)
+      endif
 		endif
 		if a:attr != ""
 			exec "hi " . a:group . " gui=" . a:attr . " cterm=" . a:attr
