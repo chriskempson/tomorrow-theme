@@ -1,6 +1,4 @@
-# Tomorrow Theme now lives on at https://github.com/chriskempson/base16
-
-[![Flattr this](http://api.flattr.com/button/flattr-badge-large.png)](http://flattr.com/thing/814991/chriskempsontomorrow-theme-on-GitHub)
+# Tomorrow Theme
 
 After having spent over five years using, tweaking and refining a personal editor theme I decided it was time to release "Tomorrow Theme" - a bright theme with pastel colours and sensible syntax highlighting. 
 
