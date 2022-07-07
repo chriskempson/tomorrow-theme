@@ -1,5 +1,5 @@
 # Tomorrow Theme
-After having spent over five years using, tweaking and refining a personal editor theme I decided it was time to release "Tomorrow Theme" - a bright theme with pastel colours and sensible syntax highlighting. 
+After having spent several years using, tweaking and refining a personal editor theme since 2005, I decided it was time to publicly release "Tomorrow Theme" on the _14th of February 2011_. Tomorrow theme is a colourful theme with muted colours and sensible syntax highlighting.
 
 A theme should aid your work by providing easily identifiable colours that add meaning and enhance legibility. This was the main focus when developing Tomorrow Theme.
 
